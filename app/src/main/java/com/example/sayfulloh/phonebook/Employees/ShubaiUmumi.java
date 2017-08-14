@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.sayfulloh.myapplication.R;
+import com.example.sayfulloh.phonebook.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

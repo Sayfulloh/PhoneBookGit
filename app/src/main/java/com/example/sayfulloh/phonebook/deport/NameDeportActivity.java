@@ -8,27 +8,28 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.example.sayfulloh.myapplication.ListDivision.DasgohiKotibotKotibot;
-import com.example.sayfulloh.myapplication.ListDivision.Kadr;
-import com.example.sayfulloh.myapplication.ListDivision.KotibotActivity;
-import com.example.sayfulloh.myapplication.ListDivision.Markazi_Salomati;
-import com.example.sayfulloh.myapplication.ListDivision.Muhosibot;
-import com.example.sayfulloh.myapplication.ListDivision.OzmoishgohiMarkazi;
-import com.example.sayfulloh.myapplication.ListDivision.RayHaridMarketing;
-import com.example.sayfulloh.myapplication.ListDivision.RayHaridiTajizot;
-import com.example.sayfulloh.myapplication.ListDivision.RayHuquq;
-import com.example.sayfulloh.myapplication.ListDivision.RayKabuliKorho;
-import com.example.sayfulloh.myapplication.ListDivision.RayKorho;
-import com.example.sayfulloh.myapplication.ListDivision.RayLoihakashiTehniki;
-import com.example.sayfulloh.myapplication.ListDivision.RayModiiTehniki;
-import com.example.sayfulloh.myapplication.ListDivision.RayMolia;
-import com.example.sayfulloh.myapplication.ListDivision.RayMonitoring;
-import com.example.sayfulloh.myapplication.ListDivision.RayNazoratiTehniki;
-import com.example.sayfulloh.myapplication.ListDivision.RaySementasia;
-import com.example.sayfulloh.myapplication.ListDivision.RayTaminotiBehatari;
-import com.example.sayfulloh.myapplication.ListDivision.Rohbariat;
-import com.example.sayfulloh.myapplication.ListDivision.SitodiSohtmon;
-import com.example.sayfulloh.myapplication.R;
+import com.example.sayfulloh.phonebook.ListDivision.DasgohiKotibotKotibot;
+import com.example.sayfulloh.phonebook.ListDivision.Kadr;
+import com.example.sayfulloh.phonebook.ListDivision.KotibotActivity;
+import com.example.sayfulloh.phonebook.ListDivision.Markazi_Salomati;
+import com.example.sayfulloh.phonebook.ListDivision.Muhosibot;
+import com.example.sayfulloh.phonebook.ListDivision.OzmoishgohiMarkazi;
+import com.example.sayfulloh.phonebook.ListDivision.RayHaridMarketing;
+import com.example.sayfulloh.phonebook.ListDivision.RayHaridiTajizot;
+import com.example.sayfulloh.phonebook.ListDivision.RayHuquq;
+import com.example.sayfulloh.phonebook.ListDivision.RayKabuliKorho;
+import com.example.sayfulloh.phonebook.ListDivision.RayKorho;
+import com.example.sayfulloh.phonebook.ListDivision.RayLoihakashiTehniki;
+import com.example.sayfulloh.phonebook.ListDivision.RayModiiTehniki;
+import com.example.sayfulloh.phonebook.ListDivision.RayMolia;
+import com.example.sayfulloh.phonebook.ListDivision.RayMonitoring;
+import com.example.sayfulloh.phonebook.ListDivision.RayNazoratiTehniki;
+import com.example.sayfulloh.phonebook.ListDivision.RaySementasia;
+import com.example.sayfulloh.phonebook.ListDivision.RayTaminotiBehatari;
+import com.example.sayfulloh.phonebook.ListDivision.Rohbariat;
+import com.example.sayfulloh.phonebook.ListDivision.SitodiSohtmon;
+import com.example.sayfulloh.phonebook.R;
+
 
 public class NameDeportActivity extends AppCompatActivity {
 

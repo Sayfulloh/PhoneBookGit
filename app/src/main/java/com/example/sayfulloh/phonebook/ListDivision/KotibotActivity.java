@@ -8,8 +8,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.example.sayfulloh.myapplication.Employees.ShubaiUmumi;
-import com.example.sayfulloh.myapplication.R;
+import com.example.sayfulloh.phonebook.Employees.ShubaiUmumi;
+import com.example.sayfulloh.phonebook.R;
 
 public class KotibotActivity extends AppCompatActivity {
 

@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.example.sayfulloh.myapplication.ListDivision.Kadr">
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview1"
+        android:layout_marginLeft="-30dp"
+        />
+
 </android.support.constraint.ConstraintLayout>

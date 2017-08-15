@@ -1,4 +1,4 @@
-package com.example.sayfulloh.phonebook.Employees;
+package com.example.sayfulloh.phonebook.Employees.kotibot.Kotibot;
 
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
@@ -15,7 +15,8 @@ import com.example.sayfulloh.phonebook.R;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class BahshiTarjumon extends AppCompatActivity {
+public class IT extends AppCompatActivity {
+
 
     ArrayList <String> arrayList;
     ArrayAdapter<String > arrayAdapter;
@@ -23,9 +24,9 @@ public class BahshiTarjumon extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bahshi_tarjumon);
+        setContentView(R.layout.activity_it);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Саидошурова Зебо - 989-99-00-21", "Назирова Малоҳат - 989-99-00-93"};
+        String [] items={"Валиев Сафарбег - 989-99-00-10", "Изатуллоев Комрон - 989-99-00-12", "Сайфуллоҳи Абдуллоҳ - 989-99-00-11", "Саидов Суҳроб - 989-99-00-15", "Исоев Далер - 989-99-00-14", "Кабиров Мақсуд - 989-99-00-28"};
 
 
 
@@ -44,7 +45,7 @@ public class BahshiTarjumon extends AppCompatActivity {
         });
     }
     public void showInputBox (String oldItem, final int index){
-        final Dialog dialog = new Dialog(BahshiTarjumon.this);
+        final Dialog dialog = new Dialog(IT.this);
         dialog.setTitle("Input Box");
         dialog.setContentView(R.layout.input_box);
         TextView txtMessage= (TextView)dialog.findViewById(R.id.txtmessage);
@@ -65,5 +66,4 @@ public class BahshiTarjumon extends AppCompatActivity {
         });
         dialog.show();
     }
-    }
-
+}

@@ -1,4 +1,4 @@
-package com.example.sayfulloh.phonebook.ListDivision;
+package com.example.sayfulloh.phonebook.Employees.kotibot.Kotibot;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -10,13 +10,12 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.sayfulloh.phonebook.Employees.kotibot.Kotibot.ShubaiUmumi;
 import com.example.sayfulloh.phonebook.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Rohbariat extends AppCompatActivity {
+public class ShubaiUmumi extends AppCompatActivity {
 
     ArrayList <String> arrayList;
     ArrayAdapter<String > arrayAdapter;
@@ -24,10 +23,9 @@ public class Rohbariat extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.rohbariat);
+        setContentView(R.layout.activity_tree);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Сафарзода Хайрулло Амиралӣ", "Шамсуллозода М - 98-999-00-02", "Раҳмонов А.М - 98-999-00-03", "Раҳимов А. - 98-999-00-29", "Саъдуллоев М - 98-999-00-06",
-                "Азимов Ҳ - 98-999-00-07", "Турахонов Ғ - 98-999-00-08", "Давронов Қурбоназар - 98-999-02-00", "Ғозиев Н - 98-999-00-16", "Зиёев Рустам - 98-999-00-19"};
+        String [] items={"Расулова Мусаллама - 989-99-00-20", "Раҷабова Ф. - 989-99-00-22"};
 
 
 
@@ -46,7 +44,7 @@ public class Rohbariat extends AppCompatActivity {
         });
     }
     public void showInputBox (String oldItem, final int index){
-        final Dialog dialog = new Dialog(Rohbariat.this);
+        final Dialog dialog = new Dialog(ShubaiUmumi.this);
         dialog.setTitle("Input Box");
         dialog.setContentView(R.layout.input_box);
         TextView txtMessage= (TextView)dialog.findViewById(R.id.txtmessage);

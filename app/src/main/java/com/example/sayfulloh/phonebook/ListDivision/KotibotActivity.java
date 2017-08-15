@@ -8,12 +8,12 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.example.sayfulloh.phonebook.Employees.BahshiTarjumon;
-import com.example.sayfulloh.phonebook.Employees.IT;
-import com.example.sayfulloh.phonebook.Employees.Matbuot;
-import com.example.sayfulloh.phonebook.Employees.Ruhsatnoma;
-import com.example.sayfulloh.phonebook.Employees.ShubaiUmumi;
-import com.example.sayfulloh.phonebook.Employees.TahlilJanbast;
+import com.example.sayfulloh.phonebook.Employees.kotibot.Kotibot.BahshiTarjumon;
+import com.example.sayfulloh.phonebook.Employees.kotibot.Kotibot.IT;
+import com.example.sayfulloh.phonebook.Employees.kotibot.Kotibot.Matbuot;
+import com.example.sayfulloh.phonebook.Employees.kotibot.Kotibot.Ruhsatnoma;
+import com.example.sayfulloh.phonebook.Employees.kotibot.Kotibot.ShubaiUmumi;
+import com.example.sayfulloh.phonebook.Employees.kotibot.Kotibot.TahlilJanbast;
 import com.example.sayfulloh.phonebook.R;
 
 public class KotibotActivity extends AppCompatActivity {

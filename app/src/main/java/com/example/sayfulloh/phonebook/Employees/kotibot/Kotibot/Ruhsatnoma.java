@@ -1,4 +1,4 @@
-package com.example.sayfulloh.phonebook.Employees;
+package com.example.sayfulloh.phonebook.Employees.kotibot.Kotibot;
 
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
@@ -15,8 +15,7 @@ import com.example.sayfulloh.phonebook.R;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class IT extends AppCompatActivity {
-
+public class Ruhsatnoma extends AppCompatActivity {
 
     ArrayList <String> arrayList;
     ArrayAdapter<String > arrayAdapter;
@@ -24,9 +23,9 @@ public class IT extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_it);
+        setContentView(R.layout.activity_ruhsatnoma);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Валиев Сафарбег - 989-99-00-10", "Изатуллоев Комрон - 989-99-00-12", "Сайфуллоҳи Абдуллоҳ - 989-99-00-11", "Саидов Суҳроб - 989-99-00-15", "Исоев Далер - 989-99-00-14", "Кабиров Мақсуд - 989-99-00-28"};
+        String [] items={"Наврузбеки М - 989-99-00-99", "Алибеков О - 989-99-00-24"};
 
 
 
@@ -45,7 +44,7 @@ public class IT extends AppCompatActivity {
         });
     }
     public void showInputBox (String oldItem, final int index){
-        final Dialog dialog = new Dialog(IT.this);
+        final Dialog dialog = new Dialog(Ruhsatnoma.this);
         dialog.setTitle("Input Box");
         dialog.setContentView(R.layout.input_box);
         TextView txtMessage= (TextView)dialog.findViewById(R.id.txtmessage);

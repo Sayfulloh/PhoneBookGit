@@ -1,4 +1,4 @@
-package com.example.sayfulloh.phonebook.Employees;
+package com.example.sayfulloh.phonebook.Employees.kotibot.Kotibot;
 
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
@@ -15,17 +15,16 @@ import com.example.sayfulloh.phonebook.R;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Ruhsatnoma extends AppCompatActivity {
-
+public class TahlilJanbast extends AppCompatActivity {
     ArrayList <String> arrayList;
     ArrayAdapter<String > arrayAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ruhsatnoma);
+        setContentView(R.layout.tahlil_janbast);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Наврузбеки М - 989-99-00-99", "Алибеков О - 989-99-00-24"};
+        String [] items={"Ҷума Сафаралӣ - 989-99-00-92", "Мирзозода Меҳрӯз - 989-99-00-90", "Нуралиев Фируз - 989-99-00-94"};
 
 
 
@@ -44,7 +43,7 @@ public class Ruhsatnoma extends AppCompatActivity {
         });
     }
     public void showInputBox (String oldItem, final int index){
-        final Dialog dialog = new Dialog(Ruhsatnoma.this);
+        final Dialog dialog = new Dialog(TahlilJanbast.this);
         dialog.setTitle("Input Box");
         dialog.setContentView(R.layout.input_box);
         TextView txtMessage= (TextView)dialog.findViewById(R.id.txtmessage);

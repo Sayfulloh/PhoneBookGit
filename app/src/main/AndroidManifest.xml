@@ -21,7 +21,7 @@
         </activity>
         <activity android:name=".deport.NameDeportActivity" />
         <activity android:name=".ListDivision.KotibotActivity" />
-        <activity android:name=".Employees.ShubaiUmumi" />
+        <activity android:name=".Employees.kotibot.Kotibot.ShubaiUmumi" />
         <activity android:name=".ListDivision.RayMonitoring" />
         <activity android:name=".ListDivision.Markazi_Salomati" />
         <activity android:name=".ListDivision.SitodiSohtmon" />
@@ -41,11 +41,12 @@
         <activity android:name=".ListDivision.DasgohiKotibotKotibot" />
         <activity android:name=".ListDivision.RayTaminotiBehatari" />
         <activity android:name=".ListDivision.Rohbariat" />
-        <activity android:name=".Employees.BahshiTarjumon" />
-        <activity android:name=".Employees.IT" />
-        <activity android:name=".Employees.TahlilJanbast" />
-        <activity android:name=".Employees.Ruhsatnoma" />
-        <activity android:name=".Employees.Matbuot"></activity>
+        <activity android:name=".Employees.kotibot.Kotibot.BahshiTarjumon" />
+        <activity android:name=".Employees.kotibot.Kotibot.IT" />
+        <activity android:name=".Employees.kotibot.Kotibot.TahlilJanbast" />
+        <activity android:name=".Employees.kotibot.Kotibot.Ruhsatnoma" />
+        <activity android:name=".Employees.kotibot.Kotibot.Matbuot" />
+        <activity android:name=".Employees.kotibot.Kadr.BahshiMahsusiKadr"></activity>
     </application>
 
 </manifest>

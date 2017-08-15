@@ -8,7 +8,12 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.example.sayfulloh.phonebook.Employees.BahshiTarjumon;
+import com.example.sayfulloh.phonebook.Employees.IT;
+import com.example.sayfulloh.phonebook.Employees.Matbuot;
+import com.example.sayfulloh.phonebook.Employees.Ruhsatnoma;
 import com.example.sayfulloh.phonebook.Employees.ShubaiUmumi;
+import com.example.sayfulloh.phonebook.Employees.TahlilJanbast;
 import com.example.sayfulloh.phonebook.R;
 
 public class KotibotActivity extends AppCompatActivity {
@@ -32,6 +37,26 @@ public class KotibotActivity extends AppCompatActivity {
                 if (position==0){
                     Intent myintent =new Intent(view.getContext(),ShubaiUmumi.class);
                     startActivityForResult(myintent, 0);
+                }
+                if (position==1){
+                    Intent myintent =new Intent(view.getContext(),BahshiTarjumon.class);
+                    startActivityForResult(myintent, 1);
+                }
+                if (position==2){
+                    Intent myintent =new Intent(view.getContext(),IT.class);
+                    startActivityForResult(myintent, 2);
+                }
+                if (position==3){
+                    Intent myintent =new Intent(view.getContext(),TahlilJanbast.class);
+                    startActivityForResult(myintent, 3);
+                }
+                if (position==4){
+                    Intent myintent =new Intent(view.getContext(),Ruhsatnoma.class);
+                    startActivityForResult(myintent, 4);
+                }
+                if (position==5){
+                    Intent myintent =new Intent(view.getContext(),Matbuot.class);
+                    startActivityForResult(myintent, 5);
                 }
 
 

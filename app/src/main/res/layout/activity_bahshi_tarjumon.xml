@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sayfulloh.myapplication.Employees.ShubaiUmumi">
+    tools:context="com.example.sayfulloh.phonebook.Employees.BahshiTarjumon">
 
     <ListView
         android:layout_marginLeft="12dp"
@@ -13,9 +13,11 @@
         android:layout_marginRight="12dp"
         android:id="@+id/listViewBox"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
+        android:layout_height="wrap_content">
 
     </ListView>
 
-</LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

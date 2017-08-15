@@ -19,6 +19,33 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".deport.NameDeportActivity" />
+        <activity android:name=".ListDivision.KotibotActivity" />
+        <activity android:name=".Employees.ShubaiUmumi" />
+        <activity android:name=".ListDivision.RayMonitoring" />
+        <activity android:name=".ListDivision.Markazi_Salomati" />
+        <activity android:name=".ListDivision.SitodiSohtmon" />
+        <activity android:name=".ListDivision.Muhosibot" />
+        <activity android:name=".ListDivision.Kadr" />
+        <activity android:name=".ListDivision.RayLoihakashiTehniki" />
+        <activity android:name=".ListDivision.RayKabuliKorho" />
+        <activity android:name=".ListDivision.RayHuquq" />
+        <activity android:name=".ListDivision.RayMolia" />
+        <activity android:name=".ListDivision.RayHaridiTajizot" />
+        <activity android:name=".ListDivision.RaySementasia" />
+        <activity android:name=".ListDivision.RayNazoratiTehniki" />
+        <activity android:name=".ListDivision.OzmoishgohiMarkazi" />
+        <activity android:name=".ListDivision.RayKorho" />
+        <activity android:name=".ListDivision.RayModiiTehniki" />
+        <activity android:name=".ListDivision.RayHaridMarketing" />
+        <activity android:name=".ListDivision.DasgohiKotibotKotibot" />
+        <activity android:name=".ListDivision.RayTaminotiBehatari" />
+        <activity android:name=".ListDivision.Rohbariat" />
+        <activity android:name=".Employees.BahshiTarjumon" />
+        <activity android:name=".Employees.IT" />
+        <activity android:name=".Employees.TahlilJanbast" />
+        <activity android:name=".Employees.Ruhsatnoma" />
+        <activity android:name=".Employees.Matbuot"></activity>
     </application>
 
 </manifest>

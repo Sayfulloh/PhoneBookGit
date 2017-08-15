@@ -1,37 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="330dp"
     android:layout_height="wrap_content"
     android:background="@color/colorPrimaryDark">
+
+
 
     <TextView
         android:id="@+id/txtmessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/write"
         android:text="Маълумот оиди корманд"
         android:textAlignment="center"
-        android:textSize="16sp" />
+        android:textSize="14sp"
+        android:textStyle="normal"/>
 
-
-    <Button
-        android:id="@+id/btnCall"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="220dp"
+    <TextView
+        android:id="@+id/txtinput"
+        android:textColor="@color/write"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Позвонить"
-        android:layout_gravity="center_horizontal" />
-
-
-    <Button
-            android:id="@+id/btndone"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="Закрыть" />
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:layout_margin="15dp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,17 +35,55 @@
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal">
 
-        <TextView
-            android:id="@+id/txtinput"
-            android:textColor="@color/colorAccent"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:textSize="16dp"
-            android:layout_margin="15dp"
-            android:textStyle="bold" />
-
-
+                <ImageView
+                    android:layout_marginLeft="18dp"
+                    android:id="@+id/imageCall"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_call" />
+                <Button
+                    android:id="@+id/btnCall"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:text="Тамос гирифтан"
+                    android:layout_gravity="center_horizontal"/>
     </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_marginLeft="18dp"
+                    android:id="@+id/imageSms"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_sms" />
+
+                <Button
+                    android:id="@+id/btnSms"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="СМС равон кардан"
+                    android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btndone"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="220dp"
+        android:layout_marginLeft="3dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:text="OK" />
 
 </LinearLayout>

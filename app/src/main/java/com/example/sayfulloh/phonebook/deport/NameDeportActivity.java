@@ -1,6 +1,7 @@
 package com.example.sayfulloh.phonebook.deport;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -35,11 +36,13 @@ public class NameDeportActivity extends AppCompatActivity {
 
     ListView listView;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_one);
         listView = (ListView) findViewById(R.id.listview);
+        listView.setCacheColorHint(Color.parseColor("#FF4081"));
         String[] values = new String [] {"Роҳбарият", "Котибот", "Маркази саломатӣ", "Ситоди сохтмон", "Муҳосибот", "Раёсати кадр", "Раёсати лоиҳакашӣ-техникӣ",
                 "Раёсати қабули корҳои анҷомёфта", "Раёсати мониториги муҳандисӣ", "Раёсати ҳуқуқ ва қарордодҳо", "Раёсати молия ва иқтисод",
                 "Раёсати хариди таҷҳизот ва мукаммалсозӣ", "Раёсати назорати корҳои сементатсионӣ", "Раёсати назорати техникӣ", "Озмоишгоҳи марказӣ", "Раёсати корҳо",

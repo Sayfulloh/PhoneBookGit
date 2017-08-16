@@ -1,8 +1,8 @@
-package com.example.sayfulloh.phonebook.ListDivision;
+package com.example.sayfulloh.phonebook.Employees.kotibot.RayMonitoring;
 
 import android.app.Dialog;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -10,25 +10,23 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.sayfulloh.phonebook.Employees.kotibot.RayKabuliKorho.ShubaiIstehsoli;
 import com.example.sayfulloh.phonebook.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class RayHuquq extends AppCompatActivity {
+public class ShubaiGeofiziki extends AppCompatActivity {
+
     ArrayList <String> arrayList;
     ArrayAdapter<String > arrayAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ray_huquq);
+        setContentView(R.layout.activity_shubai_geofiziki);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Машрабов Илҳом\tСардори Раёсат\t98-999-01-00\n" ,
-                "Қурбонов Амирбек\tМуов.сар.Раёс\t98-999-01-01\n" ,
-                "Давлатов Ф\tМут. пешбар\t98-999-01-02\n" ,
-                "Қурбонов Т\tҲуқуқшиноси П\t98-999-01-03\n" ,
-                "Қурбонов Д\tҲуқуқшиноси П\t98-999-01-04\n"};
+        String [] items={"Ҳалимов Т.\tСардори ОГС\t98-999-01-54\n", "Ятимов Т\tмуҳ. пешбар\t98-999-01-58\n", "Зарипов А.\tмуҳ. геолог\t98-999-01-76\n"};
 
 
 
@@ -47,7 +45,7 @@ public class RayHuquq extends AppCompatActivity {
         });
     }
     public void showInputBox (String oldItem, final int index){
-        final Dialog dialog = new Dialog(RayHuquq.this);
+        final Dialog dialog = new Dialog(ShubaiGeofiziki.this);
         dialog.setTitle("Input Box");
         dialog.setContentView(R.layout.input_box);
         TextView txtMessage= (TextView)dialog.findViewById(R.id.txtmessage);

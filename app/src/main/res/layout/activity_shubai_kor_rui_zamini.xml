@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sayfulloh.myapplication.ListDivision.RayHuquq">
+    tools:context="com.example.sayfulloh.phonebook.Employees.kotibot.RayKabuliKorho.ShubaiKorRuiZamini">
 
     <ListView
         android:layout_marginLeft="12dp"

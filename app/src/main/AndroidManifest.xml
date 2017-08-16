@@ -49,7 +49,15 @@
         <activity android:name=".Employees.kotibot.Kadr.BahshiMahsusiKadr" />
         <activity android:name=".Employees.kotibot.RayLoikashiTehniki.ShubaiTehniki" />
         <activity android:name=".Employees.kotibot.RayLoikashiTehniki.Boygoni" />
-        <activity android:name=".Employees.kotibot.RayLoikashiTehniki.ShubaiLoikashi"></activity>
+        <activity android:name=".Employees.kotibot.RayLoikashiTehniki.ShubaiLoikashi" />
+        <activity android:name=".Employees.kotibot.RayKabuliKorho.ShubaiKorRuiZamini" />
+        <activity android:name=".Employees.kotibot.RayKabuliKorho.ShubaiKorZerizamini" />
+        <activity android:name=".Employees.kotibot.RayKabuliKorho.ShubaiIstehsoli" />
+        <activity android:name=".Employees.kotibot.RayMonitoring.ShubaiMarkshedri" />
+        <activity android:name=".Employees.kotibot.RayMonitoring.ShubaiGeodezia" />
+        <activity android:name=".Employees.kotibot.RayMonitoring.ShubaiMonitoringiGeodezi" />
+        <activity android:name=".Employees.kotibot.RayMonitoring.ShubaiGeofiziki" />
+        <activity android:name=".Employees.kotibot.RayMonitoring.ShubaiTahliliMonitoring"></activity>
     </application>
 
 </manifest>

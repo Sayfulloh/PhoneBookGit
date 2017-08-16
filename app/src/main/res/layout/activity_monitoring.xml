@@ -6,11 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.example.sayfulloh.myapplication.ListDivision.RayMonitoring">
 
-    <TextView
-        android:id="@+id/textView2"
+    <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textSize="30dp"
+        android:id="@+id/listview1"
+        android:layout_marginLeft="-30dp"
+
         />
 </android.support.constraint.ConstraintLayout>

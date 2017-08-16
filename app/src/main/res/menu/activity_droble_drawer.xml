@@ -4,21 +4,22 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@mipmap/ic_logo_rogun"
             android:onClick="onClickOne"
-            android:title="Import" />
+            android:title="ҶСК “НБО Роғун”" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+
+            android:icon="@drawable/ic_logo_salini"
+            android:title="Salini Impregilo" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="ҶСФ “Сохтмони асосӣ”" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Ширкатҳо" />
     </group>
 
     <item android:title="Communicate">

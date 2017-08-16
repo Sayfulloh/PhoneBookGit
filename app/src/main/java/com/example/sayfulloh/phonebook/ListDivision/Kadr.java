@@ -1,17 +1,26 @@
 package com.example.sayfulloh.phonebook.ListDivision;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.example.sayfulloh.phonebook.Employees.kotibot.Kadr.BahshiMahsusiKadr;
 import com.example.sayfulloh.phonebook.R;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Kadr extends AppCompatActivity {
+
+    ArrayList<String> arrayList;
+    ArrayAdapter<String > adapter;
 
     ListView listView;
 
@@ -20,10 +29,13 @@ public class Kadr extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.kadr);
         listView = (ListView) findViewById(R.id.listview1);
-        String[] values = new String [] {"БАХШИ МАХСУСИ РАЁСАТИ КАДРҲО"};
+        final String[] items = new String [] {"БАХШИ МАХСУСИ РАЁСАТИ КАДРҲО", "Абдулҳақов С - 98-999-00-33", "Холмуродова Ш - 98-999-00-34", "Рустамов М - 98-999-00-35",
+                "Сайдалиева Садбарг - 98-999-00-32","Мамадшоев П. - 98-999-00-30"};
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-                android.R.layout.activity_list_item, android.R.id.text1,values);
+        arrayList = new ArrayList<>(Arrays.asList(items));
+
+        final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.activity_list_item, android.R.id.text1,items);
+
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -34,10 +46,56 @@ public class Kadr extends AppCompatActivity {
                     startActivityForResult(myintent, 0);
                 }
 
+                if (position==1){
+                    showInputBox(arrayList.get(position),position);
+
+                }
+                if (position==2){
+                    showInputBox(arrayList.get(position),position);
+
+                }
+                if (position==3){
+                    showInputBox(arrayList.get(position),position);
+
+                }
+                if (position==4){
+                    showInputBox(arrayList.get(position),position);
+
+                }
+                if (position==5){
+                    showInputBox(arrayList.get(position),position);
+
+                }
+
 
 
             }
         });
 
     }
+
+    public void showInputBox (String oldItem, final int index){
+        final Dialog dialog = new Dialog(Kadr.this);
+        dialog.setTitle("Input Box");
+        dialog.setContentView(R.layout.input_box);
+        TextView txtMessage= (TextView)dialog.findViewById(R.id.txtmessage);
+        txtMessage.setText("Маълумот оиди корманд");
+//        txtMessage.setTextColor(Color.parseColor("#000000"));
+
+
+        final TextView textView = (TextView) dialog.findViewById(R.id.txtinput);
+        textView.setText(oldItem);
+        Button bt= (Button)dialog.findViewById(R.id.btndone);
+        bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                arrayList.set(index,textView.getText().toString());
+//                adapter.notifyDataSetChanged();
+                dialog.dismiss();
+            }
+        });
+        dialog.show();
+
+    }
+
 }

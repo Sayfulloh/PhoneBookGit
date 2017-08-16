@@ -46,7 +46,10 @@
         <activity android:name=".Employees.kotibot.Kotibot.TahlilJanbast" />
         <activity android:name=".Employees.kotibot.Kotibot.Ruhsatnoma" />
         <activity android:name=".Employees.kotibot.Kotibot.Matbuot" />
-        <activity android:name=".Employees.kotibot.Kadr.BahshiMahsusiKadr"></activity>
+        <activity android:name=".Employees.kotibot.Kadr.BahshiMahsusiKadr" />
+        <activity android:name=".Employees.kotibot.RayLoikashiTehniki.ShubaiTehniki" />
+        <activity android:name=".Employees.kotibot.RayLoikashiTehniki.Boygoni" />
+        <activity android:name=".Employees.kotibot.RayLoikashiTehniki.ShubaiLoikashi"></activity>
     </application>
 
 </manifest>

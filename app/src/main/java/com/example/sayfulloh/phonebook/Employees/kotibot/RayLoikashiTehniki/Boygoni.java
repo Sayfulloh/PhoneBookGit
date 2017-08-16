@@ -1,8 +1,8 @@
-package com.example.sayfulloh.phonebook.ListDivision;
+package com.example.sayfulloh.phonebook.Employees.kotibot.RayLoikashiTehniki;
 
 import android.app.Dialog;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -10,12 +10,13 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.sayfulloh.phonebook.Employees.kotibot.Kadr.BahshiMahsusiKadr;
 import com.example.sayfulloh.phonebook.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Markazi_Salomati extends AppCompatActivity {
+public class Boygoni extends AppCompatActivity {
 
     ArrayList <String> arrayList;
     ArrayAdapter<String > arrayAdapter;
@@ -23,10 +24,9 @@ public class Markazi_Salomati extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.salomati);
+        setContentView(R.layout.activity_boygoni);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Муродов Мирзоалӣ - 98-999-05-99", "Пиров Хайом - 98-999-05-92", "Холов Зайниддин - 98-999-05-93", "Улфатов Абубакр - 98-999-05-91", "Сатторов Зокир - 98-999-05-90",
-                "Шарипов Нуралли - 98-999-06-29"};
+        String [] items={"Ёров Миралӣ\tМут. пешбар\t989-99-0046"};
 
 
 
@@ -45,7 +45,7 @@ public class Markazi_Salomati extends AppCompatActivity {
         });
     }
     public void showInputBox (String oldItem, final int index){
-        final Dialog dialog = new Dialog(Markazi_Salomati.this);
+        final Dialog dialog = new Dialog(Boygoni.this);
         dialog.setTitle("Input Box");
         dialog.setContentView(R.layout.input_box);
         TextView txtMessage= (TextView)dialog.findViewById(R.id.txtmessage);

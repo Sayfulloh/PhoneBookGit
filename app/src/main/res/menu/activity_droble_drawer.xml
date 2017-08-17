@@ -4,34 +4,34 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
-            android:icon="@mipmap/ic_logo_rogun"
+            android:icon="@drawable/ic_logo_rog"
             android:onClick="onClickOne"
             android:title="ҶСК “НБО Роғун”" />
         <item
             android:id="@+id/nav_gallery"
 
-            android:icon="@drawable/ic_logo_salini"
+            android:icon="@drawable/ic_salini_one"
             android:title="Salini Impregilo" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_logo_rog"
             android:title="ҶСФ “Сохтмони асосӣ”" />
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_firma"
             android:title="Ширкатҳо" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Иртибот">
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:icon="@drawable/ic_site"
+                android:title="Сомонаи ҷаъмият" />
             <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:icon="@drawable/ic_about"
+                android:title="Барнома" />
         </menu>
     </item>
 

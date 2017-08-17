@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sayfulloh.phonebook.Employees.kotibot.RayMonitoring.ShubaiTahliliMonitoring">
+    tools:context=".RogunHPP.Employees.RogunHPP.RayMonitoring.ShubaiTahliliMonitoring">
 
 </android.support.constraint.ConstraintLayout>

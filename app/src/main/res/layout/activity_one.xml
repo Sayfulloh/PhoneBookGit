@@ -10,7 +10,7 @@
 
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context="com.example.sayfulloh.phonebook.deport.NameDeportActivity">
+    tools:context=".RogunHPP.Employees.NameDeportActivity">
 
     <ListView
         android:id="@+id/listview"

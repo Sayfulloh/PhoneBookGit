@@ -6,4 +6,14 @@
     android:layout_height="match_parent"
     tools:context="com.example.sayfulloh.myapplication.ListDivision.RayTaminotiBehatari">
 
+
+    <ListView
+        android:layout_marginLeft="5dp"
+        android:id="@+id/listViewBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </ListView>
+
 </android.support.constraint.ConstraintLayout>

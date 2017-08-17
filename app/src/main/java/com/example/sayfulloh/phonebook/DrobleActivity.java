@@ -14,7 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.sayfulloh.phonebook.deport.NameDeportActivity;
+import com.example.sayfulloh.phonebook.RogunHPP.Employees.NameDeportActivity;
 
 public class DrobleActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

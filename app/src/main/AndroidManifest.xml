@@ -21,7 +21,7 @@
         </activity>
         <activity android:name=".RogunHPP.Employees.NameDeportActivity" />
         <activity android:name=".RogunHPP.ListDivision.KotibotActivity" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.Kotibot.ShubaiUmumi" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayKotibot.ShubaiUmumi" />
         <activity android:name=".RogunHPP.ListDivision.RayMonitoring" />
         <activity android:name=".RogunHPP.ListDivision.Markazi_Salomati" />
         <activity android:name=".RogunHPP.ListDivision.SitodiSohtmon" />
@@ -41,12 +41,12 @@
         <activity android:name=".RogunHPP.ListDivision.DasgohiKotibiKorporativi" />
         <activity android:name=".RogunHPP.ListDivision.RayTaminotiBehatari" />
         <activity android:name=".RogunHPP.ListDivision.Rohbariat" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.Kotibot.BahshiTarjumon" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.Kotibot.IT" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.Kotibot.TahlilJanbast" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.Kotibot.Ruhsatnoma" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.Kotibot.Matbuot" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.Kadr.BahshiMahsusiKadr" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayKotibot.BahshiTarjumon" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayKotibot.IT" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayKotibot.TahlilJanbast" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayKotibot.Ruhsatnoma" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayKotibot.Matbuot" />
+        <activity android:name=".RogunHPP.RogunDepartment.Kadr.BahshiMahsusiKadr" />
         <activity android:name=".RogunHPP.Employees.RogunHPP.RayLoikashiTehniki.ShubaiTehniki" />
         <activity android:name=".RogunHPP.Employees.RogunHPP.RayLoikashiTehniki.Boygoni" />
         <activity android:name=".RogunHPP.Employees.RogunHPP.RayLoikashiTehniki.ShubaiLoikashi" />
@@ -59,14 +59,30 @@
         <activity android:name=".RogunHPP.Employees.RogunHPP.RayMonitoring.ShubaiGeofiziki" />
         <activity android:name=".RogunHPP.Employees.RogunHPP.RayMonitoring.ShubaiTahliliMonitoring" />
         <activity android:name=".RogunHPP.Employees.RogunHPP.RayMolia.ShubaiHarjnomaho" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.RayHaridiTajizot.ShubaiHaridiTajizot" />
+        <activity android:name=".RogunHPP.RogunDepartment.ShubaiHaridiTajizot.ShubaiHaridiTajizot" />
         <activity android:name=".RogunHPP.Employees.RogunHPP.RayKorho.HojagiiManzil" />
         <activity android:name=".RogunHPP.Employees.RogunHPP.RayKorho.HurokiUmumi" />
         <activity android:name=".RogunHPP.Employees.RogunHPP.RayKorho.QitaiSuzishvori" />
         <activity android:name=".RogunHPP.Employees.RogunHPP.RayKorho.RonandagoniRayNaqliet" />
         <activity android:name=".SohtmoniAsosi.SohtmoniAsosi" />
         <activity android:name=".RogunHPP.ListDivision.ItifoqiKasaba" />
-        <activity android:name=".RogunHPP.ListDivision.HizbiHalqi"></activity>
+        <activity android:name=".RogunHPP.ListDivision.HizbiHalqi" />
+        <activity android:name=".SohtmoniAsosi.ListDivision.ShubaiKadr" />
+        <activity android:name=".SohtmoniAsosi.ListDivision.Muhosibot" />
+        <activity android:name=".SohtmoniAsosi.ListDivision.ShubaiGeodezia" />
+        <activity android:name=".SohtmoniAsosi.ListDivision.SitodiJSF" />
+        <activity android:name=".SohtmoniAsosi.ListDivision.QitaiKorhBehatari" />
+        <activity android:name=".SohtmoniAsosi.ListDivision.IstifodaRoho" />
+        <activity android:name=".SohtmoniAsosi.ListDivision.KoriZeriZamin" />
+        <activity android:name=".SohtmoniAsosi.ListDivision.KorhoiTarkishi" />
+        <activity android:name=".SohtmoniAsosi.ListDivision.QMV1" />
+        <activity android:name=".SohtmoniAsosi.ListDivision.QMV2" />
+        <activity android:name=".SohtmoniAsosi.ListDivision.QNA" />
+        <activity android:name=".SohtmoniAsosi.ListDivision.QitaiObparto" />
+        <activity android:name=".SohtmoniAsosi.ListDivision.Kompresor" />
+        <activity android:name=".SohtmoniAsosi.ListDivision.QitaiInshuotSohtmon" />
+        <activity android:name=".SohtmoniAsosi.ListDivision.CQI_QCSH_CQM" />
+        <activity android:name=".Company_in_RogunHPP.Company_in_RogunHPP"></activity>
     </application>
 
 </manifest>

@@ -11,8 +11,9 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayMolia.ShubaiHarjnomaho;
+
 import com.example.sayfulloh.phonebook.R;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.ShubaiHaridiTajizot.ShubaiHaridiTajizot;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -58,7 +59,7 @@ public class RayHaridiTajizot extends AppCompatActivity {
 
                 }
                 if (position==4){
-                    Intent myintent =new Intent(view.getContext(),ShubaiHarjnomaho.class);
+                    Intent myintent =new Intent(view.getContext(),ShubaiHaridiTajizot.class);
                     startActivityForResult(myintent, 4);
                 }
 

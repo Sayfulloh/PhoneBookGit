@@ -1,4 +1,4 @@
-package com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.Kotibot;
+package com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot;
 
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
@@ -15,7 +15,7 @@ import com.example.sayfulloh.phonebook.R;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Matbuot extends AppCompatActivity {
+public class BahshiTarjumon extends AppCompatActivity {
 
     ArrayList <String> arrayList;
     ArrayAdapter<String > arrayAdapter;
@@ -23,9 +23,9 @@ public class Matbuot extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_matbuot);
+        setContentView(R.layout.activity_bahshi_tarjumon);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Қурбонов Саидқул - 989-99-04-65", "Сайвалиев У. - 989-99-04-66", "Ҳомидов Ҷ - 989-99-04-68"};
+        String [] items={"Саидошурова Зебо - 989-99-00-21", "Назирова Малоҳат - 989-99-00-93"};
 
 
 
@@ -44,7 +44,7 @@ public class Matbuot extends AppCompatActivity {
         });
     }
     public void showInputBox (String oldItem, final int index){
-        final Dialog dialog = new Dialog(Matbuot.this);
+        final Dialog dialog = new Dialog(BahshiTarjumon.this);
         dialog.setTitle("Input Box");
         dialog.setContentView(R.layout.input_box);
         TextView txtMessage= (TextView)dialog.findViewById(R.id.txtmessage);
@@ -65,4 +65,5 @@ public class Matbuot extends AppCompatActivity {
         });
         dialog.show();
     }
-}
+    }
+

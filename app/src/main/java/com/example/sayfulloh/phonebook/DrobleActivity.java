@@ -14,7 +14,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.sayfulloh.phonebook.Company_in_RogunHPP.Company_in_RogunHPP;
 import com.example.sayfulloh.phonebook.RogunHPP.Employees.NameDeportActivity;
+import com.example.sayfulloh.phonebook.SohtmoniAsosi.SohtmoniAsosi;
 
 public class DrobleActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -104,6 +106,16 @@ public class DrobleActivity extends AppCompatActivity
 
     public void onClickOne(MenuItem item) {
         Intent intent = new Intent(this, NameDeportActivity.class);
+        startActivity(intent);
+    }
+
+    public void onClickSohAsosi(MenuItem item) {
+        Intent intent = new Intent(this, SohtmoniAsosi.class);
+        startActivity(intent);
+    }
+
+    public void onClickShirkatho(MenuItem item) {
+        Intent intent = new Intent(this, Company_in_RogunHPP.class);
         startActivity(intent);
     }
 }

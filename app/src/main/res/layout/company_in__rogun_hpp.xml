@@ -4,18 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RogunHPP.RogunDepartment.RayKotibot.Ruhsatnoma">
+    tools:context="com.example.sayfulloh.phonebook.Company_in_RogunHPP.Company_in_RogunHPP">
+
 
     <ListView
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:layout_marginRight="12dp"
-        android:id="@+id/listViewBox"
+        android:id="@+id/listview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-30dp"
 
-    </ListView>
 
+        />
 
 </android.support.constraint.ConstraintLayout>

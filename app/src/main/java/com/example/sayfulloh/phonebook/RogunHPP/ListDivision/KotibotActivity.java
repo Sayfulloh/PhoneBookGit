@@ -11,13 +11,14 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.Kotibot.BahshiTarjumon;
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.Kotibot.IT;
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.Kotibot.Matbuot;
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.Kotibot.Ruhsatnoma;
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.Kotibot.ShubaiUmumi;
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.Kotibot.TahlilJanbast;
 import com.example.sayfulloh.phonebook.R;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot.BahshiTarjumon;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot.IT;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot.Matbuot;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot.Ruhsatnoma;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot.ShubaiUmumi;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot.TahlilJanbast;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -35,124 +35,203 @@ import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RaySementasia;
 import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayTaminotiBehatari;
 import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.Rohbariat;
 import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.SitodiSohtmon;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot.BahshiTarjumon;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot.IT;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot.Matbuot;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot.Ruhsatnoma;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot.ShubaiUmumi;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot.TahlilJanbast;
+import com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision.CQI_QCSH_CQM;
+import com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision.IstifodaRoho;
+import com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision.Kompresor;
+import com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision.KorhoiTarkishi;
+import com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision.KoriZeriZamin;
+import com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision.QMV1;
+import com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision.QMV2;
+import com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision.QNA;
+import com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision.QitaiInshuotSohtmon;
+import com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision.QitaiKorhBehatari;
+import com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision.QitaiObparto;
+import com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision.ShubaiGeodezia;
+import com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision.ShubaiKadr;
+import com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision.SitodiJSF;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class SohtmoniAsosi extends AppCompatActivity {
 
+    ArrayList<String> arrayList;
     ListView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sohtmoni_asosi);
-        listView = (ListView) findViewById(R.id.listview);
-        listView.setCacheColorHint(Color.parseColor("#FF4081"));
-        String[] values = new String [] {"Роҳбарият", "Котибот", "Маркази саломатӣ", "Ситоди сохтмон", "Муҳосибот", "Раёсати кадр", "Раёсати лоиҳакашӣ-техникӣ",
-                "Раёсати қабули корҳои анҷомёфта", "Раёсати мониториги муҳандисӣ", "Раёсати ҳуқуқ ва қарордодҳо", "Раёсати молия ва иқтисод",
-                "Раёсати хариди таҷҳизот ва мукаммалсозӣ", "Раёсати назорати корҳои сементатсионӣ", "Раёсати назорати техникӣ", "Озмоишгоҳи марказӣ", "Раёсати корҳо",
-                "Раёсати таъминоти модди-техникӣ", "Раёсати харид ва маркетинг", "Дастгохи котиботи корпоративӣ", "Раёсати таъминоти бехатарӣ ","Иттиҳодияи иттифоқи касаба",
-                "Ҳ.Х.Д.Т КУМИТАИ ИҶРОИЯИ\n ИБТИДОИИ ДАР НБО РОҒУН\n" };
+        listView = (ListView) findViewById(R.id.listview1);
+        String[] values = new String [] {"Имомов Х\tДиректор\t98-999-07-00\n" ,
+                "Садуллоев Мурод\tСармуҳандис\t98-999-07-01\n" ,
+                "Ширинбеков У\tМуов.Дир\t98-999-07-02\n" ,
+                "Абдуллоев Шодмон\tГЛ.энергетик\t98-999-07-03\n" ,
+                "Мирзоев Маҳмадали\tМуов.сармуҳандис\t98-999-07-04\n" ,
+                "Оймаҳмадов Ёрмаҳмад\tМудири хоҷагӣ\t98-999-07-24\n" ,
+                "Мирзоева Лутфия\tМух.шуъбаи умумӣ\t98-999-07-00\n" ,
+                "Шоев Фотеҳ\tМутахассиси копютер\t98-999-09-10\n" ,
+                "Пиров Хокимшо\tСар ТБ\t98-999-07-09\n" ,
+                "Тағоймуродов Маҳмадмурод\tСардори шуъба ШММ\t98-999-07-15\n" ,
+                "Аҳмадов А\tСардори шуъбаи ШИ\t98-999-07-11\n" ,
+                "Акобиров Начмуддин\tМуҳандис\t98-999-07-17\n" ,
+                "Самиев Ш\tСардори шуъба\t98-999-07-06\n","ШУЪБАИ КАДР\n","МУҲОСИБОТ\n","ШУЪБАИ ГИОДЕЗИЯ\n","СИТОДИ ҶСФ “СОХТМОНИ АСОСӢ”\n","ҚИТЪАИ КОРҲОИ БЕХАТАРӢ\n",
+                "ҚИТЪАИ ИСТИФОДАБАРИИ РОҲҲО\n","ҚИТЪАИ КОРҲОИ ЗЕРИЗАМИНӢ\n","ҚИТЪАИ КОРҲОИ ТАРКИШӢ\n","ҚМВ-1\n","ҚМВ-2\n","ҚНА\n","ҚИТЪАИ ОБПАРТО\n","КОМПРЕССОР\n","ҚИТЪАИ ИНШООТИИ СОХТМОНИ АСОСӢ\n"
+                ,"СҚИ, ҚСШ-1, ҚБ-1,ҚХБ, СҚМ\n"};
+
+        arrayList = new ArrayList<>(Arrays.asList(values));
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.activity_list_item, android.R.id.text1,values);
         listView.setAdapter(adapter);
-
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view,
                                     int position, long l) {
                 if (position==0){
-                    Intent myintent =new Intent(view.getContext(),Rohbariat.class);
-                    startActivityForResult(myintent, 0);
+                    showInputBox(arrayList.get(position),position);
+
                 }
                 if (position==1){
-                    Intent myintent =new Intent(view.getContext(),KotibotActivity.class);
-                    startActivityForResult(myintent, 1);
+                    showInputBox(arrayList.get(position),position);
+
                 }
                 if (position==2){
-                    Intent myintent =new Intent(view.getContext(),Markazi_Salomati.class);
-                    startActivityForResult(myintent, 2);
+                    showInputBox(arrayList.get(position),position);
+
                 }
                 if (position==3){
-                    Intent myintent =new Intent(view.getContext(),SitodiSohtmon.class);
-                    startActivityForResult(myintent, 3);
+                    showInputBox(arrayList.get(position),position);
+
                 }
                 if (position==4){
-                    Intent myintent =new Intent(view.getContext(),Muhosibot.class);
-                    startActivityForResult(myintent, 4);
+                    showInputBox(arrayList.get(position),position);
+
                 }
                 if (position==5){
-                    Intent myintent =new Intent(view.getContext(),Kadr.class);
-                    startActivityForResult(myintent, 5);
+                    showInputBox(arrayList.get(position),position);
+
                 }
                 if (position==6){
-                    Intent myintent =new Intent(view.getContext(),RayLoihakashiTehniki.class);
-                    startActivityForResult(myintent, 6);
+                    showInputBox(arrayList.get(position),position);
+
                 }
                 if (position==7){
-                    Intent myintent =new Intent(view.getContext(),RayKabuliKorho.class);
-                    startActivityForResult(myintent, 7);
+                    showInputBox(arrayList.get(position),position);
+
                 }
                 if (position==8){
-                    Intent myintent =new Intent(view.getContext(),RayMonitoring.class);
-                    startActivityForResult(myintent, 8);
+                    showInputBox(arrayList.get(position),position);
+
                 }
                 if (position==9){
-                    Intent myintent =new Intent(view.getContext(),RayHuquq.class);
-                    startActivityForResult(myintent, 9);
+                    showInputBox(arrayList.get(position),position);
+
                 }
                 if (position==10){
-                    Intent myintent =new Intent(view.getContext(),RayMolia.class);
-                    startActivityForResult(myintent, 10);
+                    showInputBox(arrayList.get(position),position);
+
                 }
                 if (position==11){
-                    Intent myintent =new Intent(view.getContext(),RayHaridiTajizot.class);
-                    startActivityForResult(myintent, 11);
+                    showInputBox(arrayList.get(position),position);
+
                 }
                 if (position==12){
-                    Intent myintent =new Intent(view.getContext(),RaySementasia.class);
-                    startActivityForResult(myintent, 12);
+                    showInputBox(arrayList.get(position),position);
+
                 }
                 if (position==13){
-                    Intent myintent =new Intent(view.getContext(),RayNazoratiTehniki.class);
+                    Intent myintent =new Intent(view.getContext(),ShubaiKadr.class);
                     startActivityForResult(myintent, 13);
                 }
                 if (position==14){
-                    Intent myintent =new Intent(view.getContext(),OzmoishgohiMarkazi.class);
+                    Intent myintent =new Intent(view.getContext(), com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision.Muhosibot.class);
                     startActivityForResult(myintent, 14);
                 }
                 if (position==15){
-                    Intent myintent =new Intent(view.getContext(),RayKorho.class);
+                    Intent myintent =new Intent(view.getContext(),ShubaiGeodezia.class);
                     startActivityForResult(myintent, 15);
                 }
                 if (position==16){
-                    Intent myintent =new Intent(view.getContext(),RayModiiTehniki.class);
+                    Intent myintent =new Intent(view.getContext(),SitodiJSF.class);
                     startActivityForResult(myintent, 16);
                 }
                 if (position==17){
-                    Intent myintent =new Intent(view.getContext(),RayHaridMarketing.class);
+                    Intent myintent =new Intent(view.getContext(),QitaiKorhBehatari.class);
                     startActivityForResult(myintent, 17);
                 }
                 if (position==18){
-                    Intent myintent =new Intent(view.getContext(),DasgohiKotibiKorporativi.class);
+                    Intent myintent =new Intent(view.getContext(),IstifodaRoho.class);
                     startActivityForResult(myintent, 18);
                 }
                 if (position==19){
-                    Intent myintent =new Intent(view.getContext(),RayTaminotiBehatari.class);
+                    Intent myintent =new Intent(view.getContext(),KoriZeriZamin.class);
                     startActivityForResult(myintent, 19);
                 }
                 if (position==20){
-                    Intent myintent =new Intent(view.getContext(),ItifoqiKasaba.class);
+                    Intent myintent =new Intent(view.getContext(),KorhoiTarkishi.class);
                     startActivityForResult(myintent, 20);
                 }
                 if (position==21){
-                    Intent myintent =new Intent(view.getContext(),HizbiHalqi.class);
+                    Intent myintent =new Intent(view.getContext(),QMV1.class);
                     startActivityForResult(myintent, 21);
+                }
+                if (position==22){
+                    Intent myintent =new Intent(view.getContext(),QMV2.class);
+                    startActivityForResult(myintent, 22);
+                }
+                if (position==23){
+                    Intent myintent =new Intent(view.getContext(),QNA.class);
+                    startActivityForResult(myintent, 23);
+                }
+                if (position==24){
+                    Intent myintent =new Intent(view.getContext(),QitaiObparto.class);
+                    startActivityForResult(myintent, 24);
+                }
+                if (position==25){
+                    Intent myintent =new Intent(view.getContext(),Kompresor.class);
+                    startActivityForResult(myintent, 25);
+                }
+                if (position==26){
+                    Intent myintent =new Intent(view.getContext(),QitaiInshuotSohtmon.class);
+                    startActivityForResult(myintent, 26);
+                }
+                if (position==27){
+                    Intent myintent =new Intent(view.getContext(),CQI_QCSH_CQM.class);
+                    startActivityForResult(myintent, 27);
                 }
             }
         });
+
+    }
+
+    public void showInputBox (String oldItem, final int index){
+        final Dialog dialog = new Dialog(SohtmoniAsosi.this);
+        dialog.setTitle("Input Box");
+        dialog.setContentView(R.layout.input_box);
+        TextView txtMessage= (TextView)dialog.findViewById(R.id.txtmessage);
+        txtMessage.setText("Маълумот оиди корманд");
+//        txtMessage.setTextColor(Color.parseColor("#000000"));
+
+
+        final TextView textView = (TextView) dialog.findViewById(R.id.txtinput);
+        textView.setText(oldItem);
+        Button bt= (Button)dialog.findViewById(R.id.btndone);
+        bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                arrayList.set(index,textView.getText().toString());
+//                adapter.notifyDataSetChanged();
+                dialog.dismiss();
+            }
+        });
+        dialog.show();
 
     }
 }

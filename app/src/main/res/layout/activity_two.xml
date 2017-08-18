@@ -11,5 +11,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/listview1"
         android:layout_marginLeft="-30dp"
+
         />
 </LinearLayout>

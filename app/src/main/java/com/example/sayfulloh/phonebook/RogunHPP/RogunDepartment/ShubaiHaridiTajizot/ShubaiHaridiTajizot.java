@@ -1,4 +1,4 @@
-package com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.Kadr;
+package com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.ShubaiHaridiTajizot;
 
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
@@ -15,7 +15,7 @@ import com.example.sayfulloh.phonebook.R;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class BahshiMahsusiKadr extends AppCompatActivity {
+public class ShubaiHaridiTajizot extends AppCompatActivity {
 
     ArrayList <String> arrayList;
     ArrayAdapter<String > arrayAdapter;
@@ -23,9 +23,9 @@ public class BahshiMahsusiKadr extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bahshi_mahsusi_kadr);
-        ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Ҳабибова Садафмоҳ - 98-999-00-31", "Шарипова Дилбар - 98-999-00-36"};
+        setContentView(R.layout.activity_shubai_haridi_tajizot);
+        ListView listView = (ListView)findViewById(R.id.listViewBox1);
+        String [] items={"Давлатов Ноибшо\tсардори шуъба\t98-999-02-54\n","Мукамалов Юсуф\tмутахас. пешбар\t98-999-02-56\n", "Зияев Мусо\tсардор.шуъба\t98-999-02-55\n"};
 
 
 
@@ -44,7 +44,7 @@ public class BahshiMahsusiKadr extends AppCompatActivity {
         });
     }
     public void showInputBox (String oldItem, final int index){
-        final Dialog dialog = new Dialog(BahshiMahsusiKadr.this);
+        final Dialog dialog = new Dialog(ShubaiHaridiTajizot.this);
         dialog.setTitle("Input Box");
         dialog.setContentView(R.layout.input_box);
         TextView txtMessage= (TextView)dialog.findViewById(R.id.txtmessage);

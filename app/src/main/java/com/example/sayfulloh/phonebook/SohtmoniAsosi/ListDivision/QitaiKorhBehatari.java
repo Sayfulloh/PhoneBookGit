@@ -1,4 +1,4 @@
-package com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.Kadr;
+package com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision;
 
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
@@ -11,21 +11,25 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.example.sayfulloh.phonebook.R;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.Kadr.BahshiMahsusiKadr;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class BahshiMahsusiKadr extends AppCompatActivity {
+public class QitaiKorhBehatari extends AppCompatActivity {
 
     ArrayList <String> arrayList;
     ArrayAdapter<String > arrayAdapter;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bahshi_mahsusi_kadr);
+        setContentView(R.layout.sohtmon_qitai_korh_behatari);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Ҳабибова Садафмоҳ - 98-999-00-31", "Шарипова Дилбар - 98-999-00-36"};
+        String [] items={"Ҳомидов Султон\tСардори қиъта\t98-999-07-31\n" ,
+                "Меҳрубонов Мирзоҳайёт\tМуҳандис\t98-999-09-34\n" ,
+                "Сафаров Саидаҳрор\tИқтисодчӣ\t98-999-09-37\n"};
 
 
 
@@ -44,7 +48,7 @@ public class BahshiMahsusiKadr extends AppCompatActivity {
         });
     }
     public void showInputBox (String oldItem, final int index){
-        final Dialog dialog = new Dialog(BahshiMahsusiKadr.this);
+        final Dialog dialog = new Dialog(QitaiKorhBehatari.this);
         dialog.setTitle("Input Box");
         dialog.setContentView(R.layout.input_box);
         TextView txtMessage= (TextView)dialog.findViewById(R.id.txtmessage);

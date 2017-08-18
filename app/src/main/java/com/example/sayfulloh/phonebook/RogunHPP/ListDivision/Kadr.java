@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.Kadr.BahshiMahsusiKadr;
+import com.example.sayfulloh.phonebook.RogunHPP.Employees.NameDeportActivity;
 import com.example.sayfulloh.phonebook.R;
 
 import java.util.ArrayList;
@@ -42,7 +42,7 @@ public class Kadr extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view,
                                     int position, long l) {
                 if (position==0){
-                    Intent myintent =new Intent(view.getContext(),BahshiMahsusiKadr.class);
+                    Intent myintent =new Intent(view.getContext(), com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.Kadr.BahshiMahsusiKadr.class);
                     startActivityForResult(myintent, 0);
                 }
 

@@ -82,7 +82,54 @@
         <activity android:name=".SohtmoniAsosi.ListDivision.Kompresor" />
         <activity android:name=".SohtmoniAsosi.ListDivision.QitaiInshuotSohtmon" />
         <activity android:name=".SohtmoniAsosi.ListDivision.CQI_QCSH_CQM" />
-        <activity android:name=".Company_in_RogunHPP.Company_in_RogunHPP"></activity>
+        <activity android:name=".Company_in_RogunHPP.Company_in_RogunHPP" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Tojiknaqbsoz" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Nurafshon" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.TojikCGM" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.TojikGidrospecstroyNorak" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Tojikkuhkan" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Nurob" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.OrmiRohiKorun" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Elitstroy" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.SomonNur" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.GSSDangara" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Oriena" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.MehrdodInterneshn" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Nursoz" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Obod2013" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Invertor" />
+        <activity
+            android:name=".Company_in_RogunHPP.ListDivision.GushikayLTD"
+            android:label="@string/title_activity_gushikay_ltd"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Tojikgidromontaj" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.KF_EKK_3" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.MMZ_Sh_Norak" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.MirshohSohtmon" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Somonien" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.DagSpesctroy" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.SadDare" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Mavlak" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.AsriNur" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.GidroEnergostroy" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Intersohtmon" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.ShirkatiSharqiKuhi" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.GidroSpecproekt" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.GidroOsieoMarkazi" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Tades" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Hokrud" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.VestTranstroy" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Sarband2" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.JomKo" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.UmronMorun" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.HizmatrasoniiMuhandisi" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.AziaGidro" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Farob" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Samand" />
+        <activity
+            android:name=".Company_in_RogunHPP.ListDivision.Nur81"
+            android:label="@string/title_activity_nur81"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

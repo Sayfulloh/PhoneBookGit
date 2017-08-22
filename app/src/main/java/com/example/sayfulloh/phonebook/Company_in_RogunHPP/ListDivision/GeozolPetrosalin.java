@@ -15,7 +15,7 @@ import com.example.sayfulloh.phonebook.R;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Somonien extends AppCompatActivity {
+public class GeozolPetrosalin extends AppCompatActivity {
 
     ArrayList <String> arrayList;
     ArrayAdapter<String > arrayAdapter;
@@ -23,12 +23,11 @@ public class Somonien extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.company_somonien);
+        setContentView(R.layout.company_geozol_petrosalin);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Аболфазл Мехинрод\tДиректор\t98-999-20-70\n" ,
-                "Ахмад Хабиби\tЛоиҳакаш\t98-999-20-71\n" ,
-                "Ҳади Ҳоссейникиа\tЛоиҳакаш\t98-999-20-72\n" ,
-                "Ойдин Иброҳими\tЛоиҳакаш\t98-999-20-73\n"};
+        String [] items={"Тупахонов Акобир\tРоҳбари  оиди корҳои таркиши\t989991566\n" ,
+                "Шоираи  Хизматали\tКоргузор\t989991567\n" ,
+                "Султонов Комрон\tМуовини  директор\t989991569\n"};
 
 
 
@@ -47,7 +46,7 @@ public class Somonien extends AppCompatActivity {
         });
     }
     public void showInputBox (String oldItem, final int index){
-        final Dialog dialog = new Dialog(Somonien.this);
+        final Dialog dialog = new Dialog(GeozolPetrosalin.this);
         dialog.setTitle("Input Box");
         dialog.setContentView(R.layout.input_box);
         TextView txtMessage= (TextView)dialog.findViewById(R.id.txtmessage);

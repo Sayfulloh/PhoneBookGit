@@ -15,6 +15,7 @@ import com.example.sayfulloh.phonebook.Company_in_RogunHPP.ListDivision.DagSpesc
 import com.example.sayfulloh.phonebook.Company_in_RogunHPP.ListDivision.Elitstroy;
 import com.example.sayfulloh.phonebook.Company_in_RogunHPP.ListDivision.Farob;
 import com.example.sayfulloh.phonebook.Company_in_RogunHPP.ListDivision.GSSDangara;
+import com.example.sayfulloh.phonebook.Company_in_RogunHPP.ListDivision.GeozolPetrosalin;
 import com.example.sayfulloh.phonebook.Company_in_RogunHPP.ListDivision.GidroEnergostroy;
 import com.example.sayfulloh.phonebook.Company_in_RogunHPP.ListDivision.GidroOsieoMarkazi;
 import com.example.sayfulloh.phonebook.Company_in_RogunHPP.ListDivision.GidroSpecproekt;
@@ -51,11 +52,6 @@ import com.example.sayfulloh.phonebook.Company_in_RogunHPP.ListDivision.Tojiknaq
 import com.example.sayfulloh.phonebook.Company_in_RogunHPP.ListDivision.UmronMorun;
 import com.example.sayfulloh.phonebook.Company_in_RogunHPP.ListDivision.VestTranstroy;
 import com.example.sayfulloh.phonebook.R;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.DasgohiKotibiKorporativi;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.HizbiHalqi;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.ItifoqiKasaba;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayHaridMarketing;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayTaminotiBehatari;
 
 public class Company_in_RogunHPP extends AppCompatActivity {
 
@@ -72,7 +68,7 @@ public class Company_in_RogunHPP extends AppCompatActivity {
                 "КФ ЭКК №3", "ММЗ Ш.НОРАК","ҶДММ “МИРШОҲ СОХТМОН”", "ҶСП “СОМОНИЁН”" ,"ДАГСПЕЦСТРОЙ", "ҶДММ “САД-ДАРЁ”","ҶДММ “МАВЛАК”","ҶДММ “АСРИ-НӮР”","ҶДММ ТД “ГИДРОЭНЕРГОСТРОЙ”",
                 "ҶДММ “ИНТЕРСОХТМОН”","ҶДММ “ШИРКАТИ ШАРҚИ КУҲИ”","ҶДММ “ГИДРОСПЕЦПРОЕКТ»","ҶСК “ГИДРО ОСИЁИ МАРКАЗИ”","ҶСП “ТАДЭС”","ҶСП \"ХОКРУД\"",
                 "ҶДММ \"ХИЗМАТРАСОНИИ МУҲАНДИСОНИ \nМЕХАНИКАИ ХОК\"","ҶСП \"АзияГидро\"","ҶДММ \"Фарроб\"","ҶДММ \"Нурсоз\"  ҶДММ \"Саманд\"","ҶДММ \"НУР-81\"",
-                "ҶДММ \"САРБАНД-2\"","ҶДММ \"Ҷом Ко\"","ФҶСП \"УМРОН МОРУН\""};
+                "ҶДММ \"САРБАНД-2\"","ҶДММ \"Ҷом Ко\"","ФҶСП \"УМРОН МОРУН\"", "ҶДММ \"Геосоз Петроталинг\"  (Меҳрдод Интернейшнл)"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.activity_list_item, android.R.id.text1,values);
@@ -245,6 +241,10 @@ public class Company_in_RogunHPP extends AppCompatActivity {
                 if (position==40){
                     Intent myintent =new Intent(view.getContext(),UmronMorun.class);
                     startActivityForResult(myintent, 40);
+                }
+                if (position==41){
+                    Intent myintent =new Intent(view.getContext(),GeozolPetrosalin.class);
+                    startActivityForResult(myintent, 41);
                 }
 
             }

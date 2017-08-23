@@ -14,6 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.sayfulloh.phonebook.Abount.AbountActivity;
 import com.example.sayfulloh.phonebook.Company_in_RogunHPP.Company_in_RogunHPP;
 import com.example.sayfulloh.phonebook.RogunHPP.Employees.NameDeportActivity;
 import com.example.sayfulloh.phonebook.SohtmoniAsosi.SohtmoniAsosi;
@@ -116,6 +117,11 @@ public class DrobleActivity extends AppCompatActivity
 
     public void onClickShirkatho(MenuItem item) {
         Intent intent = new Intent(this, Company_in_RogunHPP.class);
+        startActivity(intent);
+    }
+
+    public void itemAbountOnClick(MenuItem item) {
+        Intent intent = new Intent(this, AbountActivity.class);
         startActivity(intent);
     }
 }

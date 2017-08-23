@@ -130,7 +130,11 @@
             android:name=".Company_in_RogunHPP.ListDivision.GushikayLTD"
             android:label="@string/title_activity_gushikay_ltd"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Company_in_RogunHPP.ListDivision.GeozolPetrosalin"></activity>
+        <activity android:name=".Company_in_RogunHPP.ListDivision.GeozolPetrosalin" />
+        <activity
+            android:name=".Abount.AbountActivity"
+            android:label="@string/title_activity_abount"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

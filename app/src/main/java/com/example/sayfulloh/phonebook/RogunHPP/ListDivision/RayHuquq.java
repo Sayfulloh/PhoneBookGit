@@ -24,11 +24,11 @@ public class RayHuquq extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ray_huquq);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Машрабов Илҳом\tСардори Раёсат\t98-999-01-00\n" ,
-                "Қурбонов Амирбек\tМуов.сар.Раёс\t98-999-01-01\n" ,
-                "Давлатов Ф\tМут. пешбар\t98-999-01-02\n" ,
-                "Қурбонов Т\tҲуқуқшиноси П\t98-999-01-03\n" ,
-                "Қурбонов Д\tҲуқуқшиноси П\t98-999-01-04\n"};
+        String [] items={"Машрабов Илҳом\nСардори Раёсат\n98-999-01-00" ,
+                "Қурбонов Амирбек\nМуов.сар.Раёс\n98-999-01-01" ,
+                "Давлатов Ф\nМут. пешбар\n98-999-01-02",
+                "Қурбонов Т\nҲуқуқшиноси П\n98-999-01-03",
+                "Қурбонов Д\nҲуқуқшиноси П\n98-999-01-04"};
 
 
 

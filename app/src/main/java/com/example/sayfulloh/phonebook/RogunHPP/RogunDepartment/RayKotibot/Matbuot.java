@@ -25,7 +25,7 @@ public class Matbuot extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_matbuot);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Қурбонов Саидқул - 989-99-04-65", "Сайвалиев У. - 989-99-04-66", "Ҳомидов Ҷ - 989-99-04-68"};
+        String [] items={"Қурбонов Саидқул\nСардори шуъба\n989-99-04-65", "Сайвалиев У.\nНаворбардор\n989-99-04-66", "Ҳомидов Ҷ\nНаворбардор\n989-99-04-68"};
 
 
 

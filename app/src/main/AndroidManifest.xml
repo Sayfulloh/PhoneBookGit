@@ -32,12 +32,10 @@
         <activity android:name=".RogunHPP.ListDivision.RayHuquq" />
         <activity android:name=".RogunHPP.ListDivision.RayMolia" />
         <activity android:name=".RogunHPP.ListDivision.RayHaridiTajizot" />
-        <activity android:name=".RogunHPP.ListDivision.RaySementasia" />
         <activity android:name=".RogunHPP.ListDivision.RayNazoratiTehniki" />
         <activity android:name=".RogunHPP.ListDivision.OzmoishgohiMarkazi" />
         <activity android:name=".RogunHPP.ListDivision.RayKorho" />
         <activity android:name=".RogunHPP.ListDivision.RayModiiTehniki" />
-        <activity android:name=".RogunHPP.ListDivision.RayHaridMarketing" />
         <activity android:name=".RogunHPP.ListDivision.DasgohiKotibiKorporativi" />
         <activity android:name=".RogunHPP.ListDivision.RayTaminotiBehatari" />
         <activity android:name=".RogunHPP.ListDivision.Rohbariat" />
@@ -47,23 +45,23 @@
         <activity android:name=".RogunHPP.RogunDepartment.RayKotibot.Ruhsatnoma" />
         <activity android:name=".RogunHPP.RogunDepartment.RayKotibot.Matbuot" />
         <activity android:name=".RogunHPP.RogunDepartment.Kadr.BahshiMahsusiKadr" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.RayLoikashiTehniki.ShubaiTehniki" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.RayLoikashiTehniki.Boygoni" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.RayLoikashiTehniki.ShubaiLoikashi" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.RayKabuliKorho.ShubaiKorRuiZamini" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.RayKabuliKorho.ShubaiKorZerizamini" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.RayKabuliKorho.ShubaiIstehsoli" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.RayMonitoring.ShubaiMarkshedri" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.RayMonitoring.ShubaiGeodezia" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.RayMonitoring.ShubaiMonitoringiGeodezi" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.RayMonitoring.ShubaiGeofiziki" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.RayMonitoring.ShubaiTahliliMonitoring" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.RayMolia.ShubaiHarjnomaho" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayLoihakashiTehniki.ShubaiTehniki" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayLoihakashiTehniki.Boygoni" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayLoihakashiTehniki.ShubaiLoikashi" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayKabuliKorho.ShubaiKorRuiZamini" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayKabuliKorho.ShubaiKorZerizamini" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayKabuliKorho.ShubaiIstehsoli" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayMonitoring.ShubaiMarkshedri" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayMonitoring.ShubaiGeodezia" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayMonitoring.ShubaiMonitoringiGeodezi" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayMonitoring.ShubaiGeofiziki" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayMonitoring.ShubaiTahliliMonitoring" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayMolia.ShubaiHarjnomaho" />
         <activity android:name=".RogunHPP.RogunDepartment.ShubaiHaridiTajizot.ShubaiHaridiTajizot" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.RayKorho.HojagiiManzil" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.RayKorho.HurokiUmumi" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.RayKorho.QitaiSuzishvori" />
-        <activity android:name=".RogunHPP.Employees.RogunHPP.RayKorho.RonandagoniRayNaqliet" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayKorho.HojagiiManzil" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayKorho.HurokiUmumi" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayKorho.QitaiSuzishvori" />
+        <activity android:name=".RogunHPP.RogunDepartment.RayKorho.RonandagoniRayNaqliet" />
         <activity android:name=".SohtmoniAsosi.SohtmoniAsosi" />
         <activity android:name=".RogunHPP.ListDivision.ItifoqiKasaba" />
         <activity android:name=".RogunHPP.ListDivision.HizbiHalqi" />
@@ -90,7 +88,9 @@
         <activity android:name=".Company_in_RogunHPP.ListDivision.Tojikkuhkan" />
         <activity android:name=".Company_in_RogunHPP.ListDivision.Nurob" />
         <activity android:name=".Company_in_RogunHPP.ListDivision.OrmiRohiKorun" />
-        <activity android:name=".Company_in_RogunHPP.ListDivision.Elitstroy" />
+        <activity android:name=".Company_in_RogunHPP.ListDivision.Elitstroy"
+            android:label="@string/title_activity_nur81"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Company_in_RogunHPP.ListDivision.SomonNur" />
         <activity android:name=".Company_in_RogunHPP.ListDivision.GSSDangara" />
         <activity android:name=".Company_in_RogunHPP.ListDivision.Oriena" />
@@ -134,6 +134,10 @@
         <activity
             android:name=".Abount.AbountActivity"
             android:label="@string/title_activity_abount"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Abount.SayfullohActivity"
+            android:label="@string/title_activity_sayfulloh"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

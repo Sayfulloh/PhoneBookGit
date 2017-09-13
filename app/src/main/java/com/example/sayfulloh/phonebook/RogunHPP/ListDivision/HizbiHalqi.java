@@ -24,8 +24,8 @@ public class HizbiHalqi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hizbi_halqi);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Абдураҳимов Пирумшо\t\t989991540\n" ,
-                "Холов Зулфиқор\t\t989991541\n"};
+        String [] items={"Абдураҳимов Пирумшо\n989991540" ,
+                "Холов Зулфиқор\n989991541"};
 
 
 

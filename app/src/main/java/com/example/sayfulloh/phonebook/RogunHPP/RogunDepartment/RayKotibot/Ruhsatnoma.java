@@ -25,7 +25,7 @@ public class Ruhsatnoma extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ruhsatnoma);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Наврузбеки М - 989-99-00-99", "Алибеков О - 989-99-00-24"};
+        String [] items={"Наврузбеки М\nМутахассис\n989-99-00-99", "Алибеков О\nМутахассис\n989-99-00-24"};
 
 
 

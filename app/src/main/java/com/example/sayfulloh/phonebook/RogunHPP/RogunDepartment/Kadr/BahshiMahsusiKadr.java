@@ -25,7 +25,7 @@ public class BahshiMahsusiKadr extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bahshi_mahsusi_kadr);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Ҳабибова Садафмоҳ - 98-999-00-31", "Шарипова Дилбар - 98-999-00-36"};
+        String [] items={"Ҳабибова Садафмоҳ\nҚисми  махсус\n98-999-00-31", "Шарипова Дилбар\nҚисми  махсус\n98-999-00-36"};
 
 
 

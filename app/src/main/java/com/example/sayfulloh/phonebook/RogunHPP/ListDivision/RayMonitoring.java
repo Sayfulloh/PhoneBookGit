@@ -11,11 +11,11 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayMonitoring.ShubaiGeodezia;
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayMonitoring.ShubaiGeofiziki;
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayMonitoring.ShubaiMarkshedri;
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayMonitoring.ShubaiMonitoringiGeodezi;
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayMonitoring.ShubaiTahliliMonitoring;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayMonitoring.ShubaiGeodezia;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayMonitoring.ShubaiGeofiziki;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayMonitoring.ShubaiMarkshedri;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayMonitoring.ShubaiMonitoringiGeodezi;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayMonitoring.ShubaiTahliliMonitoring;
 import com.example.sayfulloh.phonebook.R;
 
 import java.util.ArrayList;
@@ -33,8 +33,8 @@ public class RayMonitoring extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_monitoring);
         listView = (ListView) findViewById(R.id.listview1);
-        final String[] items = new String [] {"Абдуллоев Нурулло\tсардори раёсат\t98-999-01-50\n","Давлатов Р.Н\tсармаркшейдер\t98-999-01-51\n","ШУЪБАИ МАРКШЕЙДЕРӢ",
-                "ШУЪБАИ ГЕОДЕЗИЯИ НАЗОРАТИ СОХТМОНӢ", "ШУЪБАИ МОНИТОРИНГИ ГЕОДЕЗӢ", "ШУЪБАИ ТАДҚИҚОТИ ГЕОФИЗИКӢ ВА НАЗОРАТИ НАТУРАВӢ\n", "ШУЪБАИ ТАҲЛИЛИ МОНИТОРИНГӢ"};
+        final String[] items = new String [] {"Абдуллоев Нурулло\nCардори раёсат\n98-999-01-50","Давлатов Р.Н\nCармаркшейдер\n98-999-01-51","ШУЪБАИ МАРКШЕЙДЕРӢ\n",
+                "ШУЪБАИ ГЕОДЕЗИЯИ НАЗОРАТИ СОХТМОНӢ\n", "ШУЪБАИ МОНИТОРИНГИ ГЕОДЕЗӢ\n", "ШУЪБАИ ТАДҚИҚОТИ ГЕОФИЗИКӢ\nВА НАЗОРАТИ НАТУРАВӢ", "ШУЪБАИ ТАҲЛИЛИ МОНИТОРИНГӢ\n"};
 
         arrayList = new ArrayList<>(Arrays.asList(items));
 

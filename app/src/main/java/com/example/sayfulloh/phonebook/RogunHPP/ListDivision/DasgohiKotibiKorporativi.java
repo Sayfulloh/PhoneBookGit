@@ -25,9 +25,9 @@ public class DasgohiKotibiKorporativi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dasgohi_kotibot_kotibot);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Мирзоев Салоҳиддин\tсардори котибот\t98-999-01-16\n",
-                "Раҳмонов Сафаралӣ\tмутахасисси пешбар\t98-999-01-17\n",
-                "Сайфуллоев Сафаралӣ\tмутахассиси бах итилоотӣ\t98-999-01-18\n"};
+        String [] items={"Мирзоев Салоҳиддин\nсардори котибот\n98-999-01-16",
+                "Раҳмонов Сафаралӣ\nмутахасисси пешбар\n98-999-01-17",
+                "Сайфуллоев Сафаралӣ\nмутахассиси бах итилоотӣ\n98-999-01-18"};
 
 
 

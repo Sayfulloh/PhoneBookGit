@@ -1,4 +1,4 @@
-package com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayLoikashiTehniki;
+package com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayLoihakashiTehniki;
 
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
@@ -15,7 +15,7 @@ import com.example.sayfulloh.phonebook.R;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class ShubaiLoikashi extends AppCompatActivity {
+public class ShubaiTehniki extends AppCompatActivity {
 
     ArrayList <String> arrayList;
     ArrayAdapter<String > arrayAdapter;
@@ -23,9 +23,10 @@ public class ShubaiLoikashi extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_shubai_loikashi);
+        setContentView(R.layout.activity_shubai_tehniki);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Назиров Ҷамшед\tСардори шуъбаи лоиҳакашӣ\t98-999-00-44"};
+        String [] items={"Азизов Неъматулло\nСардори шӯъба\n98-999-00-42",
+                "Базоров Рустам\nМуҳандиси пешбар\n98-999-00-47"};
 
 
 
@@ -44,7 +45,7 @@ public class ShubaiLoikashi extends AppCompatActivity {
         });
     }
     public void showInputBox (String oldItem, final int index){
-        final Dialog dialog = new Dialog(ShubaiLoikashi.this);
+        final Dialog dialog = new Dialog(ShubaiTehniki.this);
         dialog.setTitle("Input Box");
         dialog.setContentView(R.layout.input_box);
         TextView txtMessage= (TextView)dialog.findViewById(R.id.txtmessage);

@@ -24,7 +24,7 @@ public class TahlilJanbast extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tahlil_janbast);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Ҷума Сафаралӣ - 989-99-00-92", "Мирзозода Меҳрӯз - 989-99-00-90", "Нуралиев Фируз - 989-99-00-94"};
+        String [] items={"Ҷума Сафаралӣ\nМутахассис\n989-99-00-92", "Мирзозода Меҳрӯз\nМутахассис\n989-99-00-90", "Нуралиев Фируз\nМутахассис\n989-99-00-94"};
 
 
 

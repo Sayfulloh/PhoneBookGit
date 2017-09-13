@@ -1,4 +1,4 @@
-package com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayMonitoring;
+package com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayMonitoring;
 
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
@@ -25,7 +25,7 @@ public class ShubaiGeodezia extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shubai_geodezia);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Розиқов Ф\tCардори шўъба\t98-999-01-52\n", "Раҷабов М\tмуҳанд. пешбар\t98-999-01-57\n", "Буритошев Орифҷон\tмуҳандиси пешбар\t98-999-01-56\n"};
+        String [] items={"Розиқов Ф\nCардори шўъба\n98-999-01-52", "Раҷабов М\nMуҳанд. пешбар\n98-999-01-57", "Буритошев Орифҷон\nMуҳандиси пешбар\n98-999-01-56"};
 
 
 

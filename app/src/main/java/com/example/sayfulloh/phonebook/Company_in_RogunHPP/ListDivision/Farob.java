@@ -1,8 +1,11 @@
 package com.example.sayfulloh.phonebook.Company_in_RogunHPP.ListDivision;
 
+import android.app.Activity;
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -15,15 +18,19 @@ import com.example.sayfulloh.phonebook.R;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Farob extends AppCompatActivity {
+public class Farob extends Activity {
 
     ArrayList <String> arrayList;
     ArrayAdapter<String > arrayAdapter;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_farob);
+
+        initToolbat();
+
         ListView listView = (ListView)findViewById(R.id.listViewBox);
         String [] items={"Шарипов Сироҷиддин  Ҳакимович\tДиректор\t989991590\n" ,
                 "Сафаров Мирзоалӣ  Сафарович\tСармуҳандис\t989991591\n" ,
@@ -46,6 +53,20 @@ public class Farob extends AppCompatActivity {
             }
         });
     }
+
+    private void initToolbat() {
+        toolbar = (Toolbar) findViewById(R.id.toolbar_new);
+        toolbar.setTitle(R.string.app_name);
+        toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                return false;
+            }
+        });
+
+        toolbar.inflateMenu(R.menu.menu);
+    }
+
     public void showInputBox (String oldItem, final int index){
         final Dialog dialog = new Dialog(Farob.this);
         dialog.setTitle("Input Box");

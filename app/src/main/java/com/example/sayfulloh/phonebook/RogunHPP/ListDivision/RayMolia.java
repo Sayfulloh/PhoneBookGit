@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayMolia.ShubaiHarjnomaho;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayMolia.ShubaiHarjnomaho;
 import com.example.sayfulloh.phonebook.R;
 
 import java.util.ArrayList;
@@ -29,8 +29,8 @@ public class RayMolia extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ray_molia);
         listView = (ListView) findViewById(R.id.listview1);
-        final String[] items = new String [] {"Шарипова Лола\tсардори раёсат\t98-999-04-30\n", "Боев Атоулло\tСардори ШБИ\t98-999-04-31\n", "Пиров Ҷамшед\tИқтисод.пешбар\t98-999-04-39\n",
-                "Муҳидинов Неъматулло\tиқтисодчии пешбар\t98-999-04-35\n", "ШУЪБАИ ХАРҶНОМАҲО"};
+        final String[] items = new String [] {"Шарипова Лола\nCардори раёсат\n98-999-04-30", "Боев Атоулло\nСардори ШБИ\n98-999-04-31", "Пиров Ҷамшед\nИқтисод.пешбар\n98-999-04-39",
+                "Муҳидинов Неъматулло\nиқтисодчии пешбар\n98-999-04-35", "ШУЪБАИ ХАРҶНОМАҲ\n"};
 
         arrayList = new ArrayList<>(Arrays.asList(items));
 

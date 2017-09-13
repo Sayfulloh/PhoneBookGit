@@ -1,4 +1,4 @@
-package com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayKorho;
+package com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKorho;
 
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
@@ -25,12 +25,12 @@ public class HojagiiManzil extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hojagii_manzil);
         ListView listView = (ListView)findViewById(R.id.listViewBox1);
-        String [] items={"Холов Асадулло\tСардори ХМК\t98-999-05-95\n",
-                "Зоиров Илҳом\tкомендант-мудири хоҷагӣ\t98-999-05-55\n",
-                "Мирзоев Мирзошариф\tКомен.хобгоҳи №2/3\t98-999-06-31\n",
-                "Самадов Гулмаҳмад\tКомен.хобгоҳи №1\t98-999-06-32\n",
-                "Ашрафбекова Нодира\tКомен.хобгоҳи ҚИА\t98-999-06-33\n",
-                "Мирзоев Кабирҷон\tКомен.хобгоҳи ҚМВ кр-15\t98-999-06-34\n"};
+        String [] items={"Холов Асадулло\nСардори ХМК\n98-999-05-95",
+                "Зоиров Илҳом\nкомендант-мудири хоҷагӣ\n98-999-05-55",
+                "Мирзоев Мирзошариф\nКомен.хобгоҳи №2/3\n98-999-06-31",
+                "Самадов Гулмаҳмад\nКомен.хобгоҳи №1\n98-999-06-32",
+                "Ашрафбекова Нодира\nКомен.хобгоҳи ҚИА\n98-999-06-33",
+                "Мирзоев Кабирҷон\nКомен.хобгоҳи ҚМВ кр-15\n98-999-06-34"};
 
 
 

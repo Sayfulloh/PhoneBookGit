@@ -1,4 +1,4 @@
-package com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayKorho;
+package com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKorho;
 
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
@@ -25,7 +25,7 @@ public class QitaiSuzishvori extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_qitai_suzishvori);
         ListView listView = (ListView)findViewById(R.id.listViewBox1);
-        String [] items={"Саъдуллоев И\tСардори қитъа\t98-999-04-76"};
+        String [] items={"Саъдуллоев И\nСардори қитъа\n98-999-04-76"};
 
 
 

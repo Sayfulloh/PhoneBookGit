@@ -30,8 +30,8 @@ public class RayHaridiTajizot extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ray_haridi_tajizot);
         listView = (ListView) findViewById(R.id.listview1);
-        final String[] items = new String [] {"Боев Гурез\tСардори Раёсат\t98-999-02-50\n", "Шарипов Гулмурод\tҷониш.сар. райёсат\t98-999-02-52\n", "Қурбонов Абдузоир\tҷониш.сар. райёсат\t98-999-02-51\n",
-                "Воҳидов Лоиқ\tҷониш.сар. райёсат\t98-999-02-53\n", "ШУЪБАИ ХАРИДИ ТАҶҲИЗОТ"};
+        final String[] items = new String [] {"Боев Гурез\nСардори Раёсат\n98-999-02-50", "Шарипов Гулмурод\nҶонишни сардори Райёсат\n98-999-02-52", "Қурбонов Абдузоир\nҶонишини сардори райёсат\n98-999-02-51",
+                "Воҳидов Лоиқ\nҶонишини сардори Райёсат\n98-999-02-53", "ШУЪБАИ ХАРИДИ ТАҶҲИЗОТ\n"};
 
         arrayList = new ArrayList<>(Arrays.asList(items));
 

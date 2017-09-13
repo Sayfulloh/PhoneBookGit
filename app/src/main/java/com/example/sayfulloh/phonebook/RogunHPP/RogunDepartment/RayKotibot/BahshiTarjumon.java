@@ -25,7 +25,7 @@ public class BahshiTarjumon extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bahshi_tarjumon);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Саидошурова Зебо - 989-99-00-21", "Назирова Малоҳат - 989-99-00-93"};
+        String [] items={"Саидошурова Зебо\nСармутахассиси тарҷумон\n989-99-00-21", "Назирова Малоҳат\nTарҷумон\n989-99-00-93"};
 
 
 

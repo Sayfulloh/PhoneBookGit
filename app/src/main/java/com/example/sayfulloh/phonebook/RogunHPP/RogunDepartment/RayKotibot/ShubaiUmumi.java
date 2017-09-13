@@ -25,7 +25,7 @@ public class ShubaiUmumi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tree);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Расулова Мусаллама - 989-99-00-20", "Раҷабова Ф. - 989-99-00-22"};
+        String [] items={"Расулова Мусаллама\nСардори шӯъба\n989-99-00-20", "Раҷабова Фируза.\nМутахасис\n989-99-00-22"};
 
 
 

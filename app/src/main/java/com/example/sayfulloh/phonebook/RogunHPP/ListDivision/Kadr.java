@@ -29,8 +29,9 @@ public class Kadr extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.kadr);
         listView = (ListView) findViewById(R.id.listview1);
-        final String[] items = new String [] {"БАХШИ МАХСУСИ РАЁСАТИ КАДРҲО", "Абдулҳақов С - 98-999-00-33", "Холмуродова Ш - 98-999-00-34", "Рустамов М - 98-999-00-35",
-                "Сайдалиева Садбарг - 98-999-00-32","Мамадшоев П. - 98-999-00-30"};
+        final String[] items = new String [] {"БАХШИ МАХСУСИ РАЁСАТИ КАДРҲО\n", "Абдулҳақов С\nСардори шӯъба\n98-999-00-33", "Холмуродова Ш\nМутахассис\n98-999-00-34",
+                "Рустамов М\nМутахассис\n98-999-00-35",
+                "Сайдалиева Садбарг\nМутахасиси пешбар\n98-999-00-32","Мамадшоев П.\nМутахасиси пешбар\n98-999-00-30"};
 
         arrayList = new ArrayList<>(Arrays.asList(items));
 

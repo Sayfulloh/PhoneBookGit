@@ -1,4 +1,4 @@
-package com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayMonitoring;
+package com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayMonitoring;
 
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
@@ -25,7 +25,7 @@ public class ShubaiGeofiziki extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shubai_geofiziki);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Ҳалимов Т.\tСардори ОГС\t98-999-01-54\n", "Ятимов Т\tмуҳ. пешбар\t98-999-01-58\n", "Зарипов А.\tмуҳ. геолог\t98-999-01-76\n"};
+        String [] items={"Ҳалимов Т.\nСардори ОГС\n98-999-01-54", "Ятимов Т\nMуҳ. пешбар\n98-999-01-58", "Зарипов А.\nMуҳ. геолог\n98-999-01-76"};
 
 
 

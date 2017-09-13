@@ -4,6 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RogunHPP.Employees.RogunHPP.RayMonitoring.ShubaiTahliliMonitoring">
+    tools:context=".RogunHPP.RogunDepartment.RayMonitoring.ShubaiTahliliMonitoring">
+
+    <ListView
+        android:id="@+id/listViewBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+
+    </ListView>
 
 </android.support.constraint.ConstraintLayout>

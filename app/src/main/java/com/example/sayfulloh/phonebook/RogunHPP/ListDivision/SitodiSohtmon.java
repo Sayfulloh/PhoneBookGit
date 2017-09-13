@@ -25,7 +25,7 @@ public class SitodiSohtmon extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sitodi_sohtmon);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Ризоев Салоҳиддин - 98-999-00-09", "Одинаев М - 98-999-06-87", "Қодиров С - 989-99-0696", "Назаров Х - 989-99-0688"};
+        String [] items={"Ризоев Салоҳиддин\nСардор\n98-999-00-09", "Одинаев М\nМуовини сардор\n98-999-06-87", "Қодиров С\nНавбатдори шабона\n989-99-0696", "Назаров Х\nНавбатдори шабона\n989-99-0688"};
 
 
 

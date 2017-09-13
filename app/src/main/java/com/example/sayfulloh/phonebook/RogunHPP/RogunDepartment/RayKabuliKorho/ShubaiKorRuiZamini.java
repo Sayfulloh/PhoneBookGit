@@ -1,4 +1,4 @@
-package com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayKabuliKorho;
+package com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKabuliKorho;
 
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
@@ -25,7 +25,7 @@ public class ShubaiKorRuiZamini extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shubai_kor_rui_zamini);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Музафаров Салоҳидин\tМутахассиси пешбар\t98-999-00-64\n", "Раҳмонов Сабзалӣ\nМутахассиси  пешбар\t98-999-00-67\n"};
+        String [] items={"Музафаров Салоҳидин\nМутахассиси пешбар\n98-999-00-64", "Раҳмонов Сабзалӣ\nМутахассиси  пешбар\n98-999-00-67"};
 
 
 

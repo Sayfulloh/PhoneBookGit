@@ -1,4 +1,4 @@
-package com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayLoikashiTehniki;
+package com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayLoihakashiTehniki;
 
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
@@ -25,7 +25,7 @@ public class Boygoni extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_boygoni);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Ёров Миралӣ\tМут. пешбар\t989-99-0046"};
+        String [] items={"Ёров Миралӣ\nМутахасиси пешбар\n989-99-0046"};
 
 
 

@@ -1,4 +1,4 @@
-package com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayMonitoring;
+package com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayMonitoring;
 
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
@@ -25,7 +25,7 @@ public class ShubaiTahliliMonitoring extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shubai_tahlili_monitoring);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Нозимов М.\tсардори шўъба\t98-999-01-55\n", "Қурбонов М.\tмуҳандис\t98-999-01-84\n"};
+        String [] items={"Нозимов М.\nCардори шўъба\n98-999-01-55", "Қурбонов М.\nMуҳандис\n98-999-01-84"};
 
 
 

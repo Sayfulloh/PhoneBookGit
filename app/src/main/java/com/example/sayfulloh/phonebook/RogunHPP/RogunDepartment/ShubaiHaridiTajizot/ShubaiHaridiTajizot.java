@@ -25,7 +25,7 @@ public class ShubaiHaridiTajizot extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shubai_haridi_tajizot);
         ListView listView = (ListView)findViewById(R.id.listViewBox1);
-        String [] items={"Давлатов Ноибшо\tсардори шуъба\t98-999-02-54\n","Мукамалов Юсуф\tмутахас. пешбар\t98-999-02-56\n", "Зияев Мусо\tсардор.шуъба\t98-999-02-55\n"};
+        String [] items={"Давлатов Ноибшо\nCардори шуъба\n98-999-02-54","Мукамалов Юсуф\nMутахасиси пешбар\n98-999-02-56", "Зияев Мусо\nСардори шуъба\n98-999-02-55"};
 
 
 

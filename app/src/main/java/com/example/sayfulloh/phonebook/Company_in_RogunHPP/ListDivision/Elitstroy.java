@@ -3,6 +3,8 @@ package com.example.sayfulloh.phonebook.Company_in_RogunHPP.ListDivision;
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -24,6 +26,9 @@ public class Elitstroy extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_elitstroy);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
         ListView listView = (ListView)findViewById(R.id.listViewBox);
         String [] items={"Азизов Худойдод\tДиректор\t98-999-12-12\n" ,
                 "Содикова Оксана\tКадр\t98-999-12-17\n" ,
@@ -45,6 +50,22 @@ public class Elitstroy extends AppCompatActivity {
 
             }
         });
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+
+
+        return super.onOptionsItemSelected(item);
     }
     public void showInputBox (String oldItem, final int index){
         final Dialog dialog = new Dialog(Elitstroy.this);

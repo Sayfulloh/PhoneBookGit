@@ -11,10 +11,10 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayKorho.HojagiiManzil;
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayKorho.HurokiUmumi;
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayKorho.QitaiSuzishvori;
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayKorho.RonandagoniRayNaqliet;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKorho.HojagiiManzil;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKorho.HurokiUmumi;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKorho.QitaiSuzishvori;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKorho.RonandagoniRayNaqliet;
 import com.example.sayfulloh.phonebook.R;
 
 import java.util.ArrayList;
@@ -32,10 +32,9 @@ public class RayKorho extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ray_korho);
         listView = (ListView) findViewById(R.id.listview1);
-        final String[] items = new String [] {"Сафаров Насим\tМуовини сардор\t98-999-01-11\n" ,
-                "Мирзоев Ҷурахон\tДухтури Маъмурият\t98-999-06-07\n" ,
-                "Ошуров Ҳофиз\tМутахассис\t98-999-0500\n","ХОҶАГИИ МАНЗИЛИ КОММУНАЛӢ","ХУРОКИ УМУМӢ","ҚИТЪАИ СУЗИШВОРӢ","РОНАНДАГОНИ ХОҶАГИИ \n" +
-                "НАҚЛИЁТИИ РАЁСАТИ КОРҲО\n"};
+        final String[] items = new String [] {"Сафаров Насим\nМуовини сардор\n98-999-01-11" ,
+                "Мирзоев Ҷурахон\nДухтури Маъмурият\n98-999-06-07" ,
+                "Ошуров Ҳофиз\nМутахассис\n98-999-0500","ХОҶАГИИ МАНЗИЛИ КОММУНАЛӢ\n","ХУРОКИ УМУМӢ\n","ҚИТЪАИ СУЗИШВОРӢ\n","РОНАНДАГОНИ ХОҶАГИИ\nНАҚЛИЁТИИ РАЁСАТИ КОРҲО"};
 
         arrayList = new ArrayList<>(Arrays.asList(items));
 

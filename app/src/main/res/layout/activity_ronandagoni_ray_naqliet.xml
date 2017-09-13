@@ -2,12 +2,13 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RogunHPP.Employees.RogunHPP.RayKorho.RonandagoniRayNaqliet">
+    tools:context=".RogunHPP.RogunDepartment.RayKorho.RonandagoniRayNaqliet">
 
     <ListView
-        android:layout_marginLeft="5dp"
+        android:layout_marginLeft="7dp"
         android:id="@+id/listViewBox1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

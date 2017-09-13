@@ -17,7 +17,6 @@ import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.KotibotActivity;
 import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.Markazi_Salomati;
 import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.Muhosibot;
 import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.OzmoishgohiMarkazi;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayHaridMarketing;
 import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayHaridiTajizot;
 import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayHuquq;
 import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayKabuliKorho;
@@ -27,7 +26,6 @@ import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayModiiTehniki;
 import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayMolia;
 import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayMonitoring;
 import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayNazoratiTehniki;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RaySementasia;
 import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayTaminotiBehatari;
 import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.Rohbariat;
 import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.SitodiSohtmon;
@@ -45,11 +43,11 @@ public class NameDeportActivity extends AppCompatActivity {
         setContentView(R.layout.activity_one);
         listView = (ListView) findViewById(R.id.listview);
         listView.setCacheColorHint(Color.parseColor("#FF4081"));
-        String[] values = new String [] {"Роҳбарият", "Котибот", "Маркази саломатӣ", "Ситоди сохтмон", "Муҳосибот", "Раёсати кадр", "Раёсати лоиҳакашӣ-техникӣ",
-                "Раёсати қабули корҳои анҷомёфта", "Раёсати мониториги муҳандисӣ", "Раёсати ҳуқуқ ва қарордодҳо", "Раёсати молия ва иқтисод",
-                "Раёсати хариди таҷҳизот ва мукаммалсозӣ", "Раёсати назорати корҳои сементатсионӣ", "Раёсати назорати техникӣ", "Озмоишгоҳи марказӣ", "Раёсати корҳо",
-                "Раёсати таъминоти модди-техникӣ", "Раёсати харид ва маркетинг", "Дастгохи котиботи корпоративӣ", "Раёсати таъминоти бехатарӣ ","Иттиҳодияи иттифоқи касаба",
-                "Ҳ.Х.Д.Т КУМИТАИ ИҶРОИЯИ\n ИБТИДОИИ ДАР НБО РОҒУН\n" };
+        String[] values = new String [] {"Роҳбарият\n", "Котибот\n", "Маркази саломатӣ\n", "Ситоди сохтмон\n", "Муҳосибот\n", "Раёсати кадр\n", "Раёсати лоиҳакашӣ-техникӣ\n",
+                "Раёсати қабули корҳои анҷомёфта\n", "Раёсати мониториги муҳандисӣ\n", "Раёсати ҳуқуқ ва қарордодҳо\n", "Раёсати молия ва иқтисод\n",
+                "Раёсати хариди таҷҳизот ва мукаммалсозӣ\n", "Раёсати назорати техникӣ\n", "Озмоишгоҳи марказӣ\n", "Раёсати корҳо\n",
+                "Раёсати харид ва таъминоти модди-техникӣ\n", "Дастгохи котиботи корпоративӣ\n", "Раёсати таъминоти бехатарӣ\n ","Иттиҳодияи иттифоқи касаба\n",
+                "Ҳ.Х.Д.Т КУМИТАИ ИҶРОИЯИ ИБТИДОИИ ДАР НБО РОҒУН\n" };
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.activity_list_item, android.R.id.text1,values);
@@ -108,44 +106,36 @@ public class NameDeportActivity extends AppCompatActivity {
                     startActivityForResult(myintent, 11);
                 }
                 if (position==12){
-                    Intent myintent =new Intent(view.getContext(),RaySementasia.class);
+                    Intent myintent =new Intent(view.getContext(),RayNazoratiTehniki.class);
                     startActivityForResult(myintent, 12);
                 }
                 if (position==13){
-                    Intent myintent =new Intent(view.getContext(),RayNazoratiTehniki.class);
+                    Intent myintent =new Intent(view.getContext(),OzmoishgohiMarkazi.class);
                     startActivityForResult(myintent, 13);
                 }
                 if (position==14){
-                    Intent myintent =new Intent(view.getContext(),OzmoishgohiMarkazi.class);
+                    Intent myintent =new Intent(view.getContext(),RayKorho.class);
                     startActivityForResult(myintent, 14);
                 }
                 if (position==15){
-                    Intent myintent =new Intent(view.getContext(),RayKorho.class);
+                    Intent myintent =new Intent(view.getContext(),RayModiiTehniki.class);
                     startActivityForResult(myintent, 15);
                 }
                 if (position==16){
-                    Intent myintent =new Intent(view.getContext(),RayModiiTehniki.class);
+                    Intent myintent =new Intent(view.getContext(),DasgohiKotibiKorporativi.class);
                     startActivityForResult(myintent, 16);
                 }
                 if (position==17){
-                    Intent myintent =new Intent(view.getContext(),RayHaridMarketing.class);
+                    Intent myintent =new Intent(view.getContext(),RayTaminotiBehatari.class);
                     startActivityForResult(myintent, 17);
                 }
                 if (position==18){
-                    Intent myintent =new Intent(view.getContext(),DasgohiKotibiKorporativi.class);
-                    startActivityForResult(myintent, 18);
-                }
-                if (position==19){
-                    Intent myintent =new Intent(view.getContext(),RayTaminotiBehatari.class);
+                    Intent myintent =new Intent(view.getContext(),ItifoqiKasaba.class);
                     startActivityForResult(myintent, 19);
                 }
-                if (position==20){
-                    Intent myintent =new Intent(view.getContext(),ItifoqiKasaba.class);
-                    startActivityForResult(myintent, 20);
-                }
-                if (position==21){
+                if (position==19){
                     Intent myintent =new Intent(view.getContext(),HizbiHalqi.class);
-                    startActivityForResult(myintent, 21);
+                    startActivityForResult(myintent, 19);
                 }
             }
         });

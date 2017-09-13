@@ -25,10 +25,10 @@ public class ItifoqiKasaba extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_itifoqi_kasaba);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Абдулақов Толиб\tРаис\t98-999-20-50\n" ,
-                "Абдулақов Ш\tМуо. Раис\t98-999-20-51\n" ,
-                "Саидхоҷаев Бехрўз\tИнженер ТБ\t98-999-20-53\n" ,
-                "Мирзоев Достӣ\tМуҳосиб\t98-999-20-52\n"};
+        String [] items={"Абдулақов Толиб\nРаис\n98-999-20-50" ,
+                "Абдулақов Ш\nМуо. Раис\n98-999-20-51" ,
+                "Саидхоҷаев Бехрўз\nИнженер ТБ\n98-999-20-53" ,
+                "Мирзоев Достӣ\nМуҳосиб\n98-999-20-52"};
 
 
 

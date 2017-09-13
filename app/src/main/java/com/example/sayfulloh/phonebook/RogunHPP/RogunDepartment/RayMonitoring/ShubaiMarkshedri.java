@@ -1,4 +1,4 @@
-package com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayMonitoring;
+package com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayMonitoring;
 
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
@@ -25,7 +25,7 @@ public class ShubaiMarkshedri extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shubai_markshedri);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Барокотов С.У\tсардори гуруҳ\t98-999-01-52\n", "Яқубов Ф\tмуҳанд. пешбар\t98-999-01-61\n"};
+        String [] items={"Барокотов С.У\nCардори гуруҳ\n98-999-01-52", "Яқубов Ф\nмуҳанд. пешбар\n98-999-01-61"};
 
 
 

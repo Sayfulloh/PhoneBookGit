@@ -33,8 +33,8 @@ public class KotibotActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_two);
         listView = (ListView) findViewById(R.id.listview1);
-        String[] values = new String [] {"Тоҳирзода М.  'Сардор'  98-999-00-04","Шуъбаи умумӣ", "Бахши тарҷумон", "Шуъбаи технологияи компютерӣ ва ҳифзи иттилоот",
-                "Бахши таҳлил ва ҷамъбаст", "Шуъбаи рухсатномаҳо", "Шуъбаи матбуот"};
+        String[] values = new String [] {"Тоҳирзода М.\nСардори Котибот\n98-999-00-04","Шуъбаи умумӣ\n", "Бахши тарҷумон\n", "Шуъбаи технологияи компютерӣ ва ҳифзи иттилоот\n",
+                "Бахши таҳлил ва ҷамъбаст\n", "Шуъбаи рухсатномаҳо\n", "Шуъбаи матбуот\n"};
 
         arrayList = new ArrayList<>(Arrays.asList(values));
 

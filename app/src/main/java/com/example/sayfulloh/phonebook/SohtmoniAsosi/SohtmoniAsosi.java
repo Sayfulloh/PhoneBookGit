@@ -2,7 +2,6 @@ package com.example.sayfulloh.phonebook.SohtmoniAsosi;
 
 import android.app.Dialog;
 import android.content.Intent;
-import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,34 +12,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.example.sayfulloh.phonebook.R;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.DasgohiKotibiKorporativi;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.HizbiHalqi;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.ItifoqiKasaba;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.Kadr;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.KotibotActivity;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.Markazi_Salomati;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.Muhosibot;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.OzmoishgohiMarkazi;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayHaridMarketing;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayHaridiTajizot;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayHuquq;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayKabuliKorho;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayKorho;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayLoihakashiTehniki;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayModiiTehniki;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayMolia;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayMonitoring;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayNazoratiTehniki;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RaySementasia;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.RayTaminotiBehatari;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.Rohbariat;
-import com.example.sayfulloh.phonebook.RogunHPP.ListDivision.SitodiSohtmon;
-import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot.BahshiTarjumon;
-import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot.IT;
-import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot.Matbuot;
-import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot.Ruhsatnoma;
-import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot.ShubaiUmumi;
-import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKotibot.TahlilJanbast;
 import com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision.CQI_QCSH_CQM;
 import com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision.IstifodaRoho;
 import com.example.sayfulloh.phonebook.SohtmoniAsosi.ListDivision.Kompresor;
@@ -69,19 +40,19 @@ public class SohtmoniAsosi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sohtmoni_asosi);
         listView = (ListView) findViewById(R.id.listview1);
-        String[] values = new String [] {"Имомов Х\tДиректор\t98-999-07-00\n" ,
-                "Садуллоев Мурод\tСармуҳандис\t98-999-07-01\n" ,
-                "Ширинбеков У\tМуов.Дир\t98-999-07-02\n" ,
-                "Абдуллоев Шодмон\tГЛ.энергетик\t98-999-07-03\n" ,
-                "Мирзоев Маҳмадали\tМуов.сармуҳандис\t98-999-07-04\n" ,
-                "Оймаҳмадов Ёрмаҳмад\tМудири хоҷагӣ\t98-999-07-24\n" ,
-                "Мирзоева Лутфия\tМух.шуъбаи умумӣ\t98-999-07-00\n" ,
-                "Шоев Фотеҳ\tМутахассиси копютер\t98-999-09-10\n" ,
-                "Пиров Хокимшо\tСар ТБ\t98-999-07-09\n" ,
-                "Тағоймуродов Маҳмадмурод\tСардори шуъба ШММ\t98-999-07-15\n" ,
-                "Аҳмадов А\tСардори шуъбаи ШИ\t98-999-07-11\n" ,
-                "Акобиров Начмуддин\tМуҳандис\t98-999-07-17\n" ,
-                "Самиев Ш\tСардори шуъба\t98-999-07-06\n","ШУЪБАИ КАДР\n","МУҲОСИБОТ\n","ШУЪБАИ ГИОДЕЗИЯ\n","СИТОДИ ҶСФ “СОХТМОНИ АСОСӢ”\n","ҚИТЪАИ КОРҲОИ БЕХАТАРӢ\n",
+        String[] values = new String [] {"Имомов Х\nДиректор\n98-999-07-00" ,
+                "Садуллоев Мурод\nСармуҳандис\n98-999-07-01" ,
+                "Ширинбеков У\nМуов.Дир\n98-999-07-02" ,
+                "Абдуллоев Шодмон\nГЛ.энергетик\n98-999-07-03" ,
+                "Мирзоев Маҳмадали\nМуов.сармуҳандис\n98-999-07-04" ,
+                "Оймаҳмадов Ёрмаҳмад\nМудири хоҷагӣ\n98-999-07-24" ,
+                "Мирзоева Лутфия\nМух.шуъбаи умумӣ\n98-999-07-00" ,
+                "Шоев Фотеҳ\nМутахассиси копютер\n98-999-09-10" ,
+                "Пиров Хокимшо\nСар ТБ\n98-999-07-09" ,
+                "Тағоймуродов Маҳмадмурод\nСардори шуъба ШММ\n98-999-07-15" ,
+                "Аҳмадов А\nСардори шуъбаи ШИ\n98-999-07-11" ,
+                "Акобиров Начмуддин\nМуҳандис\n98-999-07-17" ,
+                "Самиев Ш\nСардори шуъба\n98-999-07-06","ШУЪБАИ КАДР\n","МУҲОСИБОТ\n","ШУЪБАИ ГИОДЕЗИЯ\n","СИТОДИ ҶСФ “СОХТМОНИ АСОСӢ”\n","ҚИТЪАИ КОРҲОИ БЕХАТАРӢ\n",
                 "ҚИТЪАИ ИСТИФОДАБАРИИ РОҲҲО\n","ҚИТЪАИ КОРҲОИ ЗЕРИЗАМИНӢ\n","ҚИТЪАИ КОРҲОИ ТАРКИШӢ\n","ҚМВ-1\n","ҚМВ-2\n","ҚНА\n","ҚИТЪАИ ОБПАРТО\n","КОМПРЕССОР\n","ҚИТЪАИ ИНШООТИИ СОХТМОНИ АСОСӢ\n"
                 ,"СҚИ, ҚСШ-1, ҚБ-1,ҚХБ, СҚМ\n"};
 

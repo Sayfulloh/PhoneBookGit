@@ -1,4 +1,4 @@
-package com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayKorho;
+package com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKorho;
 
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
@@ -25,8 +25,8 @@ public class HurokiUmumi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_huroki_umumi);
         ListView listView = (ListView)findViewById(R.id.listViewBox1);
-        String [] items={"Холов Асадулло\tСардор\t98-999-06-20\n",
-                "Солиҳов Хайрулло\tСарошпази о/м\t98-999-06-21\n"};
+        String [] items={"Холов Асадулло\nСардор\n98-999-06-20",
+                "Солиҳов Хайрулло\nСарошпази о/м\n98-999-06-21"};
 
 
 

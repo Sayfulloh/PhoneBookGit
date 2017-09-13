@@ -11,9 +11,11 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayLoikashiTehniki.Boygoni;
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayLoikashiTehniki.ShubaiTehniki;
+
 import com.example.sayfulloh.phonebook.R;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayLoihakashiTehniki.Boygoni;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayLoihakashiTehniki.ShubaiLoikashi;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayLoihakashiTehniki.ShubaiTehniki;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -30,8 +32,8 @@ public class RayLoihakashiTehniki extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_raesati_loihakashi_tehniki);
         listView = (ListView) findViewById(R.id.listview1);
-        final String[] items = new String [] {"ШУЪБАИ ТЕХНИКӢ", "БОЙГОНӢ", "ШУЪБАИ  ЛОИҲАКАШӢ", "Ҳусенов Рустам\tСард  Раёсат\t98-999-00-40\n",
-                "Тошматов Ғафор\tМуовини  сардори\t98-999-00-41\n"};
+        final String[] items = new String [] {"ШУЪБАИ ТЕХНИКӢ\n", "БОЙГОНӢ\n", "ШУЪБАИ  ЛОИҲАКАШӢ\n", "Ҳусенов Рустам\nСардори Раёсат\n98-999-00-40",
+                "Тошматов Ғафор\nМуовини сардори\n98-999-00-41"};
 
         arrayList = new ArrayList<>(Arrays.asList(items));
 
@@ -52,7 +54,7 @@ public class RayLoihakashiTehniki extends AppCompatActivity {
                     startActivityForResult(myintent, 1);
                 }
                 if (position==2){
-                    Intent myintent =new Intent(view.getContext(),ShubaiTehniki.class);
+                    Intent myintent =new Intent(view.getContext(),ShubaiLoikashi.class);
                     startActivityForResult(myintent, 2);
                 }
                 if (position==3){

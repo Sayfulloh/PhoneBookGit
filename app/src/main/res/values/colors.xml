@@ -9,4 +9,8 @@
     <color name="Blue">#2196F3</color>
     <color name="Elow">#F4FF81</color>
     <color name="Black">#000000</color>
+    <color name="PhoneColor">#2c3463</color>
+    <color name="Write_two">#d9e0ea</color>
+    <color name="NEw">#8C9EFF</color>
+    <color name="PrimaryDark_Write">#90A4AE</color>
 </resources>

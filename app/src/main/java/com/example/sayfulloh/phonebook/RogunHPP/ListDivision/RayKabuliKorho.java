@@ -11,9 +11,9 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayKabuliKorho.ShubaiIstehsoli;
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayKabuliKorho.ShubaiKorRuiZamini;
-import com.example.sayfulloh.phonebook.RogunHPP.Employees.RogunHPP.RayKabuliKorho.ShubaiKorZerizamini;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKabuliKorho.ShubaiIstehsoli;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKabuliKorho.ShubaiKorRuiZamini;
+import com.example.sayfulloh.phonebook.RogunHPP.RogunDepartment.RayKabuliKorho.ShubaiKorZerizamini;
 import com.example.sayfulloh.phonebook.R;
 
 import java.util.ArrayList;
@@ -31,8 +31,8 @@ public class RayKabuliKorho extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ray_kabuli_korho);
         listView = (ListView) findViewById(R.id.listview1);
-        final String[] items = new String [] {"ШУЪБАИ ҚАБУЛИ КОРҲОИ РУИЗАМИНӢ", "ШУЪБАИ ҚАБУЛИ КОРҲОИ ЗЕРИЗАМИНӢ", "ШУЪБАИ ИСТЕҲСОЛӢ", "Абдиев М\tсардори Раёсат\t98-999-00-60\n",
-                "Бурие С\tмуов. сард.Раёсат\t98-999-00-61\n","Ҳалимов М\tМуов.сар. Р\t98-999-00-63\n"};
+        final String[] items = new String [] {"ШУЪБАИ ҚАБУЛИ КОРҲОИ РУИЗАМИНӢ\n", "ШУЪБАИ ҚАБУЛИ КОРҲОИ ЗЕРИЗАМИНӢ\n", "ШУЪБАИ ИСТЕҲСОЛӢ\n", "Абдиев М\nCардори Раёсат\n98-999-00-60",
+                "Бурие С\nМуовини сардори Раёсат\n98-999-00-61","Ҳалимов М\nМуовини сардори Раёсат\n98-999-00-63"};
 
         arrayList = new ArrayList<>(Arrays.asList(items));
 

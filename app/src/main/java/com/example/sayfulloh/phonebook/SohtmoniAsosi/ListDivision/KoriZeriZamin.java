@@ -26,9 +26,9 @@ public class KoriZeriZamin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sohtmon_kori_zeri_zamin);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Холов Каромат\tСардори Қитъа\t98-999-07-35\n" ,
-                "Гулов Олим\tСармуҳандис\t98-999-07-19\n" ,
-                "Шарипов Умед\tСаристеҳсолчӣ\t98-999-08-63\n"};
+        String [] items={"Холов Каромат\nСардори Қитъа\n98-999-07-35" ,
+                "Гулов Олим\nСармуҳандис\n98-999-07-19" ,
+                "Шарипов Умед\nСаристеҳсолчӣ\n98-999-08-63"};
 
 
 

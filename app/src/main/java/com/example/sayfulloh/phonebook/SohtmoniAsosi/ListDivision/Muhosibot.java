@@ -26,9 +26,9 @@ public class Muhosibot extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sohtmot_muhosibot);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Исматов Ҳамза\tСармуҳосиб\t98-999-07-25\n" ,
-                "Каримов Маҳмадюнус\tМуов.сармуҳос\t98-999-07-30\n" ,
-                "Ғаниев Абдулхайр\tМуҳосиби калон\t98-999-08-80\n"};
+        String [] items={"Исматов Ҳамза\nСармуҳосиб\n98-999-07-25" ,
+                "Каримов Маҳмадюнус\nМуов.сармуҳос\n98-999-07-30" ,
+                "Ғаниев Абдулхайр\nМуҳосиби калон\n98-999-08-80"};
 
 
 

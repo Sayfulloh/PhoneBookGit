@@ -26,7 +26,7 @@ public class KorhoiTarkishi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sohtmon_korhoi_tarkishi);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Табаков Геннадий\tСардори саркоргоҳ\t98-999-09-40"};
+        String [] items={"Табаков Геннадий\nСардори саркоргоҳ\n98-999-09-40"};
 
 
 

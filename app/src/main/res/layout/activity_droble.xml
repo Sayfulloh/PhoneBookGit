@@ -15,13 +15,13 @@
         android:layout_height="match_parent" />
 
     <android.support.design.widget.NavigationView
-        android:background="@color/Elow"
+        android:background="@color/colorPrimary"
         android:id="@+id/nav_view"
         android:layout_width="300dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_droble"
-        app:menu="@menu/activity_droble_drawer" />
+        app:menu="@menu/activity_droble_drawer"/>
 
 </android.support.v4.widget.DrawerLayout>

@@ -26,8 +26,8 @@ public class IstifodaRoho extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sohtmon_istifoda_roho);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Валиев Саъди\tСардори қитъа\t98-999-07-40\n" ,
-                "Исоев Тоҳир\tУсто\t98-999-07-73\n"};
+        String [] items={"Валиев Саъди\nСардори қитъа\n98-999-07-40" ,
+                "Исоев Тоҳир\nУсто\n98-999-07-73"};
 
 
 

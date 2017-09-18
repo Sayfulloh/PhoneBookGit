@@ -26,8 +26,8 @@ public class QNA extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sohtmon_qna);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Сатторов Асадулло\tСардори қитъа\t98-999-07-34\n" ,
-                "Носиров Худойдод\tСардори Таъмиргоҳ\t98-999-08-33\n"};
+        String [] items={"Сатторов Асадулло\nСардори қитъа\n98-999-07-34" ,
+                "Носиров Худойдод\nСардори Таъмиргоҳ\n98-999-08-33"};
 
 
 

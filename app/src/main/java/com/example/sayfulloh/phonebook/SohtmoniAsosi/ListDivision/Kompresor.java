@@ -27,8 +27,8 @@ public class Kompresor extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sohtmon_kompresor);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Пиров Муродулло\tСардори қитъа\t98-999-07-38\n" ,
-                "Ҳакимов Ҳайбулло\tНазоратчӣ\t98-999-09-46\n"};
+        String [] items={"Пиров Муродулло\nСардори қитъа\n98-999-07-38" ,
+                "Ҳакимов Ҳайбулло\nНазоратчӣ\n98-999-09-46"};
 
 
 

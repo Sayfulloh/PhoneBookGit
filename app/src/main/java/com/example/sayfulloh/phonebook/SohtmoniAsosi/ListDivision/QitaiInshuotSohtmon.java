@@ -26,8 +26,8 @@ public class QitaiInshuotSohtmon extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sohtmon_qitai_inshuot_sohtmon);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Шарипов Адиб\tСардори қитъа\t98-999-07-16\n" ,
-                "Шарипов Тағоймурод\tСармуҳандис\t98-999-07-39\n"};
+        String [] items={"Шарипов Адиб\nСардори қитъа\n98-999-07-16 " ,
+                "Шарипов Тағоймурод\nСармуҳандис\n98-999-07-39 "};
 
 
 

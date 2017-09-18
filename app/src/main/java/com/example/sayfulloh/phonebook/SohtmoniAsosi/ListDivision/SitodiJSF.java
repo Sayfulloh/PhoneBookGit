@@ -26,11 +26,11 @@ public class SitodiJSF extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sohtmon_sitodi_jsf);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Раҷабов Шодмон\tСардори ситод\t98-999-07-20\n" ,
-                "Цубина Лариса\tТанзимгар\t98-999-07-51\n" ,
-                "Ризоев Исломиддин\tТанзимгар\t98-999-07-52\n" ,
-                "Қарчизода Зафарбек\tТанзимгар\t98-999-07-53\n" ,
-                "Ёрмаҳмадов Султон\tТанзимгар\t98-999-07-54\n"};
+        String [] items={"Раҷабов Шодмон\nСардори ситод\n98-999-07-20" ,
+                "Цубина Лариса\nТанзимгар\n98-999-07-51" ,
+                "Ризоев Исломиддин\nТанзимгар\n98-999-07-52" ,
+                "Қарчизода Зафарбек\nТанзимгар\n98-999-07-53" ,
+                "Ёрмаҳмадов Султон\nТанзимгар\n98-999-07-54"};
 
 
 

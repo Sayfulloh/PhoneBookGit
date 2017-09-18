@@ -26,11 +26,11 @@ public class ShubaiKadr extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sohtmon_shubai_kadr);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Ахмадова Лутфия\tСардори ШК\t98-999-07-07\n" ,
-                "Раҳматов Аскар\tНозири ШК\t98-999-07-74\n" ,
-                "Ғаниев Маҳқулшоҳ\tНозири ШК\t98-999-07-99\n" ,
-                "Улфатов Мухтор\tНозири ШК\t98-999-09-09\n" ,
-                "Бегназаров Шоҳзуҳур\tНозири ШК\t98-999-09-33\n"};
+        String [] items={"Ахмадова Лутфия\nСардори ШК\n98-999-07-07" ,
+                "Раҳматов Аскар\nНозири ШК\n98-999-07-74 " ,
+                "Ғаниев Маҳқулшоҳ\nНозири ШК\n98-999-07-99 " ,
+                "Улфатов Мухтор\nНозири ШК\n98-999-09-09 " ,
+                "Бегназаров Шоҳзуҳур\nНозири ШК\n98-999-09-33 "};
 
 
 

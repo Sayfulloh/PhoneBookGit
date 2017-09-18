@@ -26,8 +26,8 @@ public class QitaiObparto extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sohtmon_qitai_obparto);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Назаров Хайриддин\tСардори қитъа\t98-999-07-37\n" ,
-                "Аминов Пулод\tСаристеҳсолотчӣ\t98-999-07-61\n"};
+        String [] items={"Назаров Хайриддин\nСардори қитъа\n98-999-07-37" ,
+                "Аминов Пулод\nСаристеҳсолотчӣ\n98-999-07-61"};
 
 
 

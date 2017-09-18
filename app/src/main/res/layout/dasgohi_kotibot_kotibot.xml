@@ -9,14 +9,11 @@
 
 
     <ListView
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:layout_marginRight="12dp"
         android:id="@+id/listViewBox"
-        android:layout_width="match_parent"
+        android:layout_width="395dp"
         android:layout_height="wrap_content"
-        >
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
 
     </ListView>
 

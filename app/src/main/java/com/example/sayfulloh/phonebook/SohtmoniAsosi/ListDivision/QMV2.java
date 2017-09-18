@@ -26,8 +26,8 @@ public class QMV2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sohtmon_qmv2);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Исматов Субҳон\tСардори қитъа\t98-999-07-41\n" ,
-                "Тоиров Алихон\tСардори қатора\t98-999-07-55\n"};
+        String [] items={"Исматов Субҳон\nСардори қитъа\n98-999-07-41" ,
+                "Тоиров Алихон\nСардори қатора\n98-999-07-55"};
 
 
 

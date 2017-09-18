@@ -27,9 +27,9 @@ public class QitaiKorhBehatari extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sohtmon_qitai_korh_behatari);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Ҳомидов Султон\tСардори қиъта\t98-999-07-31\n" ,
-                "Меҳрубонов Мирзоҳайёт\tМуҳандис\t98-999-09-34\n" ,
-                "Сафаров Саидаҳрор\tИқтисодчӣ\t98-999-09-37\n"};
+        String [] items={"Ҳомидов Султон\nСардори қиъта\n98-999-07-31 " ,
+                "Меҳрубонов Мирзоҳайёт\nМуҳандис\n98-999-09-34 " ,
+                "Сафаров Саидаҳрор\nИқтисодчӣ\n98-999-09-37"};
 
 
 

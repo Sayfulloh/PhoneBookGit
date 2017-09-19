@@ -26,10 +26,10 @@ public class GSSDangara extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_gssdangara);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Убайдов Худойдод\tСардори ШТБ\t989991273\n" ,
-                "Шарипов Баҳром\tСардори Ш. К\t989991276\n" ,
-                "Шаймонов Ҳасан\tСармуҳосиб\t989991286\n" ,
-                "Шарипов Комил\tСардори қитъа Нақлиёти\t989991281\n"};
+        String [] items={"Убайдов Худойдод\nСардори ШТБ\n989991273 " ,
+                "Шарипов Баҳром\nСардори Ш. К\t989991276 " ,
+                "Шаймонов Ҳасан\nСармуҳосиб\n989991286 " ,
+                "Шарипов Комил\nСардори қитъа Нақлиёти\n989991281 "};
 
 
 

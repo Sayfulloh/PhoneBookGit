@@ -25,10 +25,10 @@ public class Somonien extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_somonien);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Аболфазл Мехинрод\tДиректор\t98-999-20-70\n" ,
-                "Ахмад Хабиби\tЛоиҳакаш\t98-999-20-71\n" ,
-                "Ҳади Ҳоссейникиа\tЛоиҳакаш\t98-999-20-72\n" ,
-                "Ойдин Иброҳими\tЛоиҳакаш\t98-999-20-73\n"};
+        String [] items={"Аболфазл Мехинрод\nДиректор\n98-999-20-70 " ,
+                "Ахмад Хабиби\nЛоиҳакаш\n98-999-20-71 " ,
+                "Ҳади Ҳоссейникиа\nЛоиҳакаш\n98-999-20-72 " ,
+                "Ойдин Иброҳими\nЛоиҳакаш\n98-999-20-73 "};
 
 
 

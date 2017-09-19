@@ -25,10 +25,10 @@ public class Tojikkuhkan extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_tojikkuhkan);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Таваров Холмурод\tДиректор\t98-999-11-10\n" ,
-                "Сафарализода Қ\tСармуҳандис\t98-999-11-12\n" ,
-                "Умаров Маҳмурод\tСармуҳосиб\t98-999-11-13\n" ,
-                "Раҳмонов Фозил\tСардори қитъа\t98-999-11-14\n"};
+        String [] items={"Таваров Холмурод\nДиректор\n98-999-11-10 " ,
+                "Сафарализода Қ\nСармуҳандис\n98-999-11-12 " ,
+                "Умаров Маҳмурод\nСармуҳосиб\n98-999-11-13 " ,
+                "Раҳмонов Фозил\nСардори қитъа\n98-999-11-14 "};
 
 
 

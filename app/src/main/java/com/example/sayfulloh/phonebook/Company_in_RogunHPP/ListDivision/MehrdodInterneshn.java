@@ -25,11 +25,11 @@ public class MehrdodInterneshn extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_mehrdod_interneshn);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Султонов Комрон\tМуовини Директор\t98-999-15-69\n" ,
-                "Фатҳуллоев М\tКуҳнаварди Д6\t98-999-15-61\n" ,
-                "Шоираи Хизматали\tКоргузор\t98-999-15-62\n" ,
-                "Назаров Қаландар\tМуҳандиси ШИТ\t98-999-15-63\n" ,
-                "Холназаров Р\tИқтисодчӣ\t98-999-15-67\n"};
+        String [] items={"Султонов Комрон\nМуовини Директор\n98-999-15-69 " ,
+                "Фатҳуллоев М\nКуҳнаварди Д6\n98-999-15-61 " ,
+                "Шоираи Хизматали\nКоргузор\n98-999-15-62 " ,
+                "Назаров Қаландар\nМуҳандиси ШИТ\n98-999-15-63 " ,
+                "Холназаров Р\nИқтисодчӣ\n98-999-15-67 "};
 
 
 

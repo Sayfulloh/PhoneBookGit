@@ -25,10 +25,10 @@ public class Tades extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_tades);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Ниёзов Н С\tДиректори генералӣ\t98-999-21-40\n" ,
-                "Асоев И\tСардори шуъбаи ба НГ\t98-999-21-47\n" ,
-                "Халилов Орзуқул\tСардори қитъа\t98-999-21-49\n" ,
-                "Ризоев Ясаул\tКомендант\t98-999-21-55\n"};
+        String [] items={"Ниёзов Н С\nДиректори генералӣ\n98-999-21-40 " ,
+                "Асоев И\nСардори шуъбаи ба НГ\n98-999-21-47 " ,
+                "Халилов Орзуқул\nСардори қитъа\n98-999-21-49 " ,
+                "Ризоев Ясаул\nКомендант\n98-999-21-55 "};
 
 
 

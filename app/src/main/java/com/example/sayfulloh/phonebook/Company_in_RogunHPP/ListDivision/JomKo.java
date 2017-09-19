@@ -25,10 +25,10 @@ public class JomKo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_jom_ko);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Раҳмонов Маҳмадтолиб\tҶон. Дир. Оид ба сохтмон\t989992273\n" ,
-                "Ҷаборов Алимардон\tГл. Механик\t989992275\n" ,
-                "Файзуллоев Ҳабибулло\tСар. Муҳосиб\t989992283\n" ,
-                "Ҳайдарали Нусратзода\tДиспечер\t989992280\n"};
+        String [] items={"Раҳмонов Маҳмадтолиб\nҶон. Дир. Оид ба сохтмон\n989992273 " ,
+                "Ҷаборов Алимардон\nГл. Механик\n989992275 " ,
+                "Файзуллоев Ҳабибулло\nСар. Муҳосиб\n989992283 " ,
+                "Ҳайдарали Нусратзода\nДиспечер\n989992280 "};
 
 
 

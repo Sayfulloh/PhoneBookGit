@@ -25,10 +25,10 @@ public class AsriNur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_asri_nur);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Раҳимов Т\tДиректори генералӣ\t98-999-19-60\n" ,
-                "Қосимов Аҳлиддин\tНозири Кард\t98-999-19-75\n" ,
-                "Утаев А\tСармуҳандис\t98-999-19-92\n" ,
-                "Давлатов Ҷ\tСармуҳосиб\t98-999-19-63\n"};
+        String [] items={"Раҳимов Т\nДиректори генералӣ\n98-999-19-60 " ,
+                "Қосимов Аҳлиддин\nНозири Кард\n98-999-19-75 " ,
+                "Утаев А\nСармуҳандис\n98-999-19-92 " ,
+                "Давлатов Ҷ\nСармуҳосиб\n98-999-19-63"};
 
 
 

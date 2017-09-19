@@ -25,10 +25,10 @@ public class TojikGidrospecstroyNorak extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_tojik_gidrospecstroy_norak);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Зуҳуров Маҳмуд\tДиректор\t98-999-10-90\n" ,
-                "Раҳмонов Абдуҷалол\tСармуҳосиб\t98-999-10-91\n" ,
-                "Маҳмудова Зарина\tНазорати Ш К\t98-999-11-00\n" ,
-                "Қурбоншоев Ҷума\tСардори қитъа\t98-999-10-93\n"};
+        String [] items={"Зуҳуров Маҳмуд\nДиректор\n98-999-10-90 " ,
+                "Раҳмонов Абдуҷалол\nСармуҳосиб\n98-999-10-91 " ,
+                "Маҳмудова Зарина\nНазорати Ш К\n98-999-11-00 " ,
+                "Қурбоншоев Ҷума\nСардори қитъа\n98-999-10-93 "};
 
 
 

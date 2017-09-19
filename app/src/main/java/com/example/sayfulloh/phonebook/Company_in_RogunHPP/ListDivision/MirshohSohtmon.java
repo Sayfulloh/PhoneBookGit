@@ -25,10 +25,10 @@ public class MirshohSohtmon extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_mirshoh_sohtmon);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Назаров А\tДиректор\t98-999-18-81\n" ,
-                "Зиёев К\tСармуҳандис\t98-999-18-80\n" ,
-                "Трифонова Н\tМуҳосиб\t98-999-18-82\n" ,
-                "Миров Файз\tНозири Кард\t98-999-18-83\n"};
+        String [] items={"Назаров А\nДиректор\n98-999-18-81 " ,
+                "Зиёев К\nСармуҳандис\n98-999-18-80 " ,
+                "Трифонова Н\nМуҳосиб\n98-999-18-82 " ,
+                "Миров Файз\nНозири Кард\n98-999-18-83 "};
 
 
 

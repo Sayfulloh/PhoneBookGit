@@ -26,10 +26,10 @@ public class Samand extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_samand);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Табаров Хуршед  Нуралиевич\tДиректор\t989991630\n" ,
-                "Шокиров Ҳикмат  Муродович\tСардори қитъа\t989991634\n" ,
-                "Салимов Абдураҳим  Муродалиевич\tСармуҳосиб\t989991631\n" ,
-                "Шоева меҳрангез  Шодмонбеговеа\tКоргузор\t989991633\n"};
+        String [] items={"Табаров Хуршед Нуралиевич\nДиректор\n989991630 " ,
+                "Шокиров Ҳикмат  Муродович\nСардори қитъа\n989991634 " ,
+                "Салимов Абдураҳим Муродалиевич\nСармуҳосиб\n989991631 " ,
+                "Шоева меҳрангез  Шодмонбеговеа\nКоргузор\n989991633 "};
 
 
 

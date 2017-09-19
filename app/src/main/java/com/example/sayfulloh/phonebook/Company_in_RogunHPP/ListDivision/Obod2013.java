@@ -25,10 +25,10 @@ public class Obod2013 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_obod2013);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Шарипов Карим\tДиректори генералӣ\t98-999-16-91\n" ,
-                "Қараев Файзиддин\tМуҳосиб\t98-999-16-90\n" ,
-                "Маҳмадалиев С\tМуовини Дир\t98-999-16-94\n" ,
-                "Мирзоев Тағой\tМутахассиси шуъбаи кадр\t98-999-16-93\n"};
+        String [] items={"Шарипов Карим\nДиректори генералӣ\n98-999-16-91 " ,
+                "Қараев Файзиддин\nМуҳосиб\n98-999-16-90 " ,
+                "Маҳмадалиев С\nМуовини Дир\n98-999-16-94 " ,
+                "Мирзоев Тағой\nМутахассиси шуъбаи кадр\n98-999-16-93 "};
 
 
 

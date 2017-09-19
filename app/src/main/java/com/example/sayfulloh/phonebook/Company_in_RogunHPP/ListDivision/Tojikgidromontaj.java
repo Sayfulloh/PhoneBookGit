@@ -25,11 +25,11 @@ public class Tojikgidromontaj extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_tojikgidromontaj);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Зайдов Хурматулло\tДиректори генералӣ\t98-999-18-88\n" ,
-                "Зайдов Иноятулло\tДиректори техникӣ\t98-999-17-77\n" ,
-                "Салехов Абдуҷалол\tСармуҳосиб\t98-999-17-70\n" ,
-                "Очилов Азиз\tСардори қитъа\t98-999-17-71\n" ,
-                "Тайгуншоева Ф\tНач.ОК\t98-999-18-08\n"};
+        String [] items={"Зайдов Хурматулло\nДиректори генералӣ\n98-999-18-88 " ,
+                "Зайдов Иноятулло\nДиректори техникӣ\n98-999-17-77 " ,
+                "Салехов Абдуҷалол\nСармуҳосиб\n98-999-17-70 " ,
+                "Очилов Азиз\nСардори қитъа\n98-999-17-71 " ,
+                "Тайгуншоева Ф\nНач.ОК\n98-999-18-08 "};
 
 
 

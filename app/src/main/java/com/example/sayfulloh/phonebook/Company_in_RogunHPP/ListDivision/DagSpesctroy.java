@@ -25,11 +25,11 @@ public class DagSpesctroy extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_dag_spesctroy);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Набиев М\tСармуҳосиб\t98-999-20-96\n" ,
-                "Магдиев М\tДиректори\n" ,
-                "филиал\t98-999-20-97\n" ,
-                "Газиев М\tСардори қитъа\t98-999-20-98\n" ,
-                "Газиев М\tНач. ПТО\t98-999-20-99\n"};
+        String [] items={"Набиев М\nСармуҳосиб\n98-999-20-96" ,
+                "Магдиев М\nДиректори" ,
+                "филиал\n98-999-20-97" ,
+                "Газиев М\nСардори қитъа\n98-999-20-98" ,
+                "Газиев М\nНач. ПТО\n98-999-20-99"};
 
 
 

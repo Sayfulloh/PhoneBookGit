@@ -25,9 +25,9 @@ public class GeozolPetrosalin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_geozol_petrosalin);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Тупахонов Акобир\tРоҳбари  оиди корҳои таркиши\t989991566\n" ,
-                "Шоираи  Хизматали\tКоргузор\t989991567\n" ,
-                "Султонов Комрон\tМуовини  директор\t989991569\n"};
+        String [] items={"Тупахонов Акобир\nРоҳбари  оиди корҳои таркиши\n989991566 " ,
+                "Шоираи  Хизматали\nКоргузор\n989991567 " ,
+                "Султонов Комрон\nМуовини  директор\n989991569 "};
 
 
 

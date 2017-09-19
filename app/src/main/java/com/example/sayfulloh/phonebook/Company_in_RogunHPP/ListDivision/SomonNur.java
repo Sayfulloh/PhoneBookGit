@@ -25,9 +25,9 @@ public class SomonNur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_somon_nur);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Холов Х\tРоҳбар\t900-00-73-82\n" ,
-                "Розиков К\tҶон.Роҳбар\t904-31-03-10\n" ,
-                "Юсуфов Ш\tМуҳосиб\t98-999-12-41\n"};
+        String [] items={"Холов Х\nРоҳбар\n900-00-73-82 " ,
+                "Розиков К\nҶон.Роҳбар\n904-31-03-10 " ,
+                "Юсуфов Ш\nМуҳосиб\n98-999-12-41 "};
 
 
 

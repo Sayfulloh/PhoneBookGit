@@ -25,9 +25,9 @@ public class GidroSpecproekt extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_gidro_specproekt);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"\tДежурний\t989992180\n" ,
-                "Давлатшоев С\tДиретор\t989992181\n" ,
-                "Қодиров Шокирҷон\tсардори Шуъба\t989992182\n"};
+        String [] items={"Дежурний\n989992180 " ,
+                "Давлатшоев С\nДиретор\n989992181 " ,
+                "Қодиров Шокирҷон\nсардори Шуъба\n989992182"};
 
 
 

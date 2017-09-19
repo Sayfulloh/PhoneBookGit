@@ -25,9 +25,9 @@ public class ShirkatiSharqiKuhi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_shirkati_sharqi_kuhi);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Тимов Довлет\tДиректори истеҳсолӣ\t98-999-20-25\n" ,
-                "Нуриддинов Фурқат\tСармуҳандис\t98-999-20-26\n" ,
-                "Собитов Икром\tСармущосиб\t98-999-20-27\n"};
+        String [] items={"Тимов Довлет\nДиректори истеҳсолӣ\n98-999-20-25 " ,
+                "Нуриддинов Фурқат\nСармуҳандис\n98-999-20-26 " ,
+                "Собитов Икром\nСармущосиб\n98-999-20-27 "};
 
 
 

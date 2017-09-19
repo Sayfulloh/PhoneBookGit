@@ -25,8 +25,8 @@ public class HizmatrasoniiMuhandisi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_hizmatrasonii_muhandisi);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Азизпанаҳ Муҷтабо\tСардор\t989992930\n" ,
-                "Давлатёров Бахтиёр\tСар шуъбаи кадр\t989992931\n"};
+        String [] items={"Азизпанаҳ Муҷтабо\nСардор\n989992930 " ,
+                "Давлатёров Бахтиёр\nСар шуъбаи кадр\n989992931 "};
 
 
 

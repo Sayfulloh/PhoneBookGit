@@ -25,9 +25,9 @@ public class Mavlak extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_mavlak);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Гурезов Исо\tСармуҳандис\t98-999-20-35\n" ,
-                "Сунатов Назри\tДиректор\t98-999-20-36\n" ,
-                "Темуров Бобишо\tСармуҳосиб\t98-999-20-38\n"};
+        String [] items={"Гурезов Исо\nСармуҳандис\n98-999-20-35 " ,
+                "Сунатов Назри\nДиректор\n98-999-20-36 " ,
+                "Темуров Бобишо\nСармуҳосиб\n98-999-20-38 "};
 
 
 

@@ -25,11 +25,10 @@ public class GidroEnergostroy extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_gidro_energostroy);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Булбулсаидова Р\tҲуқуқшинос\t98-999-20-10\n" ,
-                "Лалоенов Хомид\tСармуҳандис\t98-999-20-11\n" ,
-                "Дарвозиев М\tСардори қитъа\t98-999-20-12\n" ,
-                "Курашиев Ануддин\tДиректор оид\n" ,
-                "ба сохтмон\t98-999-20-13\n"};
+        String [] items={"Булбулсаидова Р\nҲуқуқшинос\n98-999-20-10" ,
+                "Лалоенов Хомид\nСармуҳандис\n98-999-20-11 " ,
+                "Дарвозиев М\nСардори қитъа\n98-999-20-12 " ,
+                "Курашиев Ануддин\nДиректор оид ба сохтмон\n98-999-20-13 "};
 
 
 

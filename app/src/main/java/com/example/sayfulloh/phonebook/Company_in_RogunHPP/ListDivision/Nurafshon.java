@@ -25,11 +25,11 @@ public class Nurafshon extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_nurafshon);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Халилов Х\tДиректор\t98-999-10-70\n" ,
-                "Халилов Т\tСардори қитъа\t98-999-10-71\n" ,
-                "Муқадастов Д\tСармуҳандис\t98-999-10-72\n" ,
-                "Қурбонова Л\tНозири Ш К\t98-999-10-76\n" ,
-                "Холом М\tСардори қит. Намак\t98-999-10-78\n"};
+        String [] items={"Халилов Х\nДиректор\n98-999-10-70 " ,
+                "Халилов Т\nСардори қитъа\n98-999-10-71 " ,
+                "Муқадастов Д\nСармуҳандис\n98-999-10-72 " ,
+                "Қурбонова Л\nНозири Ш К\n98-999-10-76 " ,
+                "Холом М\nСардори қит. Намак\n98-999-10-78 "};
 
 
 

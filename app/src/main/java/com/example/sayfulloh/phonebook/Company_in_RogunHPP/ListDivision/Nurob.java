@@ -25,11 +25,11 @@ public class Nurob extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_nurob);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Ҳасанов масъуд\tДиректори Генералӣ\t98-999-11-20\n" ,
-                "Сулаймонов Ансор\tСардори  Ш К\t98-999-11-21\n" ,
-                "Маҳмадёров М\tДиректор\t98-999-11-22\n" ,
-                "Назаров Ф\tСармуҳандис\t98-999-11-24\n" ,
-                "Шарипов М\tСардори қитъа\t98-999-11-26\n"};
+        String [] items={"Ҳасанов масъуд\nДиректори Генералӣ\n98-999-11-20 " ,
+                "Сулаймонов Ансор\nСардори  Ш К\n98-999-11-21 " ,
+                "Маҳмадёров М\nДиректор\n98-999-11-22 " ,
+                "Назаров Ф\nСармуҳандис\n98-999-11-24 " ,
+                "Шарипов М\nСардори қитъа\n98-999-11-26 "};
 
 
 

@@ -25,8 +25,8 @@ public class SadDare extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_sad_dare);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Даалатов Ораз\tМастер\t98-999-20-48\n" ,
-                "Раҷабов Д\tМастер\t98-999-20-49\n"};
+        String [] items={"Даалатов Ораз\nМастер\n98-999-20-48 " ,
+                "Раҷабов Д\nМастер\n98-999-20-49 "};
 
 
 

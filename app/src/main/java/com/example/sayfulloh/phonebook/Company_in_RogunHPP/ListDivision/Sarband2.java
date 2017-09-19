@@ -25,9 +25,9 @@ public class Sarband2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_sarband2);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Набиев Шоди\tДиректор\t989992230\n" ,
-                "Фатҳуллоев Аҳрор\tСар механик\t989992240\n" ,
-                "Абдуллоев А\tмуҳандис\t989992237\n"};
+        String [] items={"Набиев Шоди\nДиректор\n989992230 " ,
+                "Фатҳуллоев Аҳрор\nСар механик\n989992240 " ,
+                "Абдуллоев А\nмуҳандис\n989992237 "};
 
 
 

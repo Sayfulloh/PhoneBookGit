@@ -25,10 +25,10 @@ public class UmronMorun extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_umron_morun);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Раҳдил   Алӣ   Ғуломабос\t\t989993000\n" ,
-                "Мурод  Муроди  Ҳидоят\t\t989993001\n" ,
-                "Аскарзода  Ризо  Саидназар\t\t989993002\n" ,
-                "Саидалиризо  Қулизода\t\t989993003\n"};
+        String [] items={"Раҳдил   Алӣ   Ғуломабос\n989993000 " ,
+                "Мурод  Муроди  Ҳидоят\n989993001 " ,
+                "Аскарзода  Ризо  Саидназар\n989993002 " ,
+                "Саидалиризо  Қулизода\n989993003 "};
 
 
 

@@ -25,8 +25,8 @@ public class Hokrud extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_hokrud);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Кошиқанди Алиакбар\tДиректори генералӣ\t989992888\n" ,
-                "Модарӣ Ҳақгу\tКадр\t989992892\n"};
+        String [] items={"Кошиқанди Алиакбар\nДиректори генералӣ\n989992888 " ,
+                "Модарӣ Ҳақгу\nКадр\n989992892 "};
 
 
 

@@ -25,9 +25,9 @@ public class GidroOsieoMarkazi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_gidro_osieo_markazi);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Азизов Ҷонмаҳиад\tДиректор\t989992680\n" ,
-                "Урунова Нигина\tиниспектори ш. Кадр\t989992690\n" ,
-                "Гиёев Дусмурод\tМастер\t989992691\n"};
+        String [] items={"Азизов Ҷонмаҳиад\nДиректор\n989992680 " ,
+                "Урунова Нигина\nинспектори ш. Кадр\n989992690 " ,
+                "Гиёев Дусмурод\nМастер\n989992691 "};
 
 
 

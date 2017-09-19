@@ -25,9 +25,9 @@ public class OrmiRohiKorun extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_ormi_rohi_korun);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Боқирзода Меҳди\tДиректори генералӣ\t98-999-12-00\n" ,
-                "Кайҳони Ҷавҳар\tРаиси коргоҳ\t98-999-11-99\n" ,
-                "Мусоев Ҷаҳонгир\tНозири шуъбаи кадр\t98-999-11-61\n"};
+        String [] items={"Боқирзода Меҳди\nДиректори генералӣ\n98-999-12-00 " ,
+                "Кайҳони Ҷавҳар\nРаиси коргоҳ\n98-999-11-99 " ,
+                "Мусоев Ҷаҳонгир\nНозири шуъбаи кадр\n98-999-11-61 "};
 
 
 

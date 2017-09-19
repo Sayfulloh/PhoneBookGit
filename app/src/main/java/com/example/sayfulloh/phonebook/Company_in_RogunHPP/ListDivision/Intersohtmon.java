@@ -25,10 +25,10 @@ public class Intersohtmon extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_intersohtmon);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Курашинов А\tДиректори генералӣ\t98-999-19-00\n" ,
-                "Хотамов Аскар\tСармуҳандис\t98-999-19-01\n" ,
-                "Нуриддинов Ф\tСардори УБХ\t98-999-19-01\n" ,
-                "Салимов Аъзам\tИқтисодчӣ\t98-999-19-19\n"};
+        String [] items={"Курашинов А\nДиректори генералӣ\n98-999-19-00 " ,
+                "Хотамов Аскар\nСармуҳандис\n98-999-19-01 " ,
+                "Нуриддинов Ф\nСардори УБХ\n98-999-19-01 " ,
+                "Салимов Аъзам\nИқтисодчӣ\n98-999-19-19 "};
 
 
 

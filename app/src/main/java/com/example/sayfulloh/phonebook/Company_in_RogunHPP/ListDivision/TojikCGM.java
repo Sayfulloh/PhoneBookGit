@@ -25,10 +25,10 @@ public class TojikCGM extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_tojik_cgm);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Очилов Суҳроб\tСар.қитъа\t98-999-10-60\n" ,
-                "Имомалиев Ш\tСар.қитъа\t98-999-10-61\n" ,
-                "Шерматов Ш\tСардори ШТИ\t98-999-10-63\n" ,
-                "Аминбекова Ситора\tКоргузор\t98-999-23-28\n"};
+        String [] items={"Очилов Суҳроб\nСар.қитъа\n98-999-10-60 " ,
+                "Имомалиев Ш\nСар.қитъа\n98-999-10-61 " ,
+                "Шерматов Ш\nСардори ШТИ\n98-999-10-63 " ,
+                "Аминбекова Ситора\nКоргузор\n98-999-23-28 "};
 
 
 

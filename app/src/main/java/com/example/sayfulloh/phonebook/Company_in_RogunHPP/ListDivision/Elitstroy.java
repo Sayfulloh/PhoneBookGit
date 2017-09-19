@@ -30,10 +30,10 @@ public class Elitstroy extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Азизов Худойдод\tДиректор\t98-999-12-12\n" ,
-                "Содикова Оксана\tКадр\t98-999-12-17\n" ,
-                "Буриев Файзиддин\tСармуҳосиб\t98-999-12-12\n" ,
-                "Карчиев\tЧон. Директор\t98-999-12-31\n"};
+        String [] items={"Азизов Худойдод\nДиректор\n98-999-12-12 " ,
+                "Содикова Оксана\nКадр\n98-999-12-17 " ,
+                "Буриев Файзиддин\tСармуҳосиб\n98-999-12-12 " ,
+                "Карчиев\nЧон. Директор\n98-999-12-31 "};
 
 
 

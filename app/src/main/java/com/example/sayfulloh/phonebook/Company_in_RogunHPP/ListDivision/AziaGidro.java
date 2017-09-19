@@ -25,10 +25,10 @@ public class AziaGidro extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_azia_gidro);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Каримов Рустам\tДиректори генерали\t989991000\n" ,
-                "Забиров Дустмурод\tҲуқуқшинос\t989992494\n" ,
-                "Мирзоев Азамат\tмуовини Д. Генерали\t989992502\n" ,
-                "Серикова Татяна\tШуъбаи кадрҳо\t989992501\n"};
+        String [] items={"Каримов Рустам\nДиректори генерали\n989991000 " ,
+                "Забиров Дустмурод\nҲуқуқшинос\n989992494 " ,
+                "Мирзоев Азамат\nМуовини Директор Генерали\n989992502 " ,
+                "Серикова Татяна\nШуъбаи кадрҳо\n989992501 "};
 
 
 

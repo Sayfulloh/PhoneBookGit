@@ -2,10 +2,10 @@
 <resources>
     <color name="colorPrimary">#3b4374</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#f52f73</color>
     <color name="write">#ffffff</color>
     <color name="lime">#CDDC39</color>
-    <color name="lightBlue">#03A9F4</color>
+    <color name="lightBlue">#03a9f4</color>
     <color name="Blue">#2196F3</color>
     <color name="Elow">#F4FF81</color>
     <color name="Black">#000000</color>

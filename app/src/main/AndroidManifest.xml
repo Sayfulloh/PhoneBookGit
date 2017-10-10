@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo_rog_for_android2"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo_rog_for_android2"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
@@ -346,5 +346,7 @@
             android:label="@string/title_activity_sayfulloh"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
+
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
 
 </manifest>

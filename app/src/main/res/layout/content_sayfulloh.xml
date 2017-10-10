@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_margin="15dp"
-            android:text="Маъмури ҳифзи иттилооти Шӯъбаи технологияи компютери ва ҳифҳи иттилоот"
+            android:text="Маъмури ҳифзи иттилооти Шӯъбаи технологияи компютери ва ҳифзи иттилоот"
             android:textColor="@color/write"
             android:textSize="18sp" />
 
@@ -54,25 +54,25 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
 
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_margin="15dp"
-                android:src="@drawable/ic_phone_icon"/>
+            <!--<ImageView-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_margin="15dp"-->
+                <!--android:src="@drawable/ic_phone_icon"/>-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/write"
-                android:layout_marginTop="27dp"
-                android:textSize="18sp"
-                android:text="(+992) 989-99-00-11" />
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColor="@color/write"-->
+                <!--android:layout_marginTop="27dp"-->
+                <!--android:textSize="18sp"-->
+                <!--android:text="(+992) 989-99-00-11" />-->
 
-        </LinearLayout>
+        <!--</LinearLayout>-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">

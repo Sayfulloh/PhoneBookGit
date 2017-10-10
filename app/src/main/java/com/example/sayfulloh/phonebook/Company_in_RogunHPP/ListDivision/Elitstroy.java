@@ -1,6 +1,9 @@
 package com.example.sayfulloh.phonebook.Company_in_RogunHPP.ListDivision;
 
+import android.Manifest;
 import android.app.Dialog;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -21,6 +24,7 @@ public class Elitstroy extends AppCompatActivity {
 
     ArrayList <String> arrayList;
     ArrayAdapter<String > arrayAdapter;
+    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +32,9 @@ public class Elitstroy extends AppCompatActivity {
         setContentView(R.layout.company_elitstroy);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+
+
 
         ListView listView = (ListView)findViewById(R.id.listViewBox);
         String [] items={"Азизов Худойдод\nДиректор\n98-999-12-12 " ,
@@ -52,6 +59,7 @@ public class Elitstroy extends AppCompatActivity {
         });
     }
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -74,19 +82,41 @@ public class Elitstroy extends AppCompatActivity {
         TextView txtMessage= (TextView)dialog.findViewById(R.id.txtmessage);
         txtMessage.setText("Маълумот оиди корманд");
 //        txtMessage.setTextColor(Color.parseColor("#000000"));
+        button=(Button)dialog.findViewById(R.id.btnCall);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent callIntent = new Intent(Manifest.permission.CALL_PHONE);
+                callIntent.setData(Uri.parse("tel:123"));
+                startActivity(callIntent);
+            }
+        });
 
 
         final TextView textView = (TextView) dialog.findViewById(R.id.txtinput);
         textView.setText(oldItem);
         Button bt= (Button)dialog.findViewById(R.id.btndone);
+
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 arrayList.set(index,textView.getText().toString());
                 arrayAdapter.notifyDataSetChanged();
                 dialog.dismiss();
+
             }
+
         });
+
+
+
         dialog.show();
+
+
+
+
     }
+
+
+
 }

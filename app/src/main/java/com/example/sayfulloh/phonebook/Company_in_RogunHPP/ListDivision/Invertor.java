@@ -25,9 +25,9 @@ public class Invertor extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.company_invertor);
         ListView listView = (ListView)findViewById(R.id.listViewBox);
-        String [] items={"Раҳимов Ҷ\nДиректори генералӣ\n98-999-17-00 " +
-                "Холмуродов Х\nСармеханик\n98-999-17-01 " +
-                "Ғуриев Ф\nСармуҳандис\n98-999-17-02 " +
+        String [] items={"Раҳимов Ҷ\nДиректори генералӣ\n98-999-17-00 " ,
+                "Холмуродов Х\nСармеханик\n98-999-17-01 " ,
+                "Ғуриев Ф\nСармуҳандис\n98-999-17-02 " ,
                 "Гаффоров Н.\nНозири ш/к\n98-999-17-15 "};
 
 
